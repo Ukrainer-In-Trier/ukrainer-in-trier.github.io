@@ -13,5 +13,5 @@ Website will be here: http://ukrainer-in-trier.github.io/
 7. `cd ukrainer-in-trier`
 8. `git checkout develop`
 9. `git checkout -b yourFeatureName`
-10. `cd themes/blist/exampleSite/
+10. `cd themes/blist/ukrainerInTrier/
     hugo serve --themesDir ../..`
