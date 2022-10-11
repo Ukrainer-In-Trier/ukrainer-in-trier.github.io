@@ -1,6 +1,6 @@
 baseurl = "https://blist.vercel.app"
 metaDataFormat = "yaml"
-title = "Blist Multilingual Theme"
+title = "Ukrainer In Trier"
 theme = "blist"
 
 DefaultContentLanguage = "en"
@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hey! I'm Katheryn Fox"
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
       introPhoto = "/picture.jpg"
-      logo = "/blist-logo.png"
+      logo = "/ukrainer-logo.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -45,7 +45,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hallo, ich bin Katheryn Fox"
       introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
       introPhoto = "/picture.jpg"
-      logo = "/blist-logo-de.png"
+      logo = "/ukrainer-logo.png"
     [[languages.de.menu.main]]
         name = "Blog"
         url = "blog"
@@ -69,7 +69,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Salut! Je suis Katheryn Fox"
       introSubtitle = "Développeuse junior de 26 ans qui adore les jeux de société, le blogging et la peinture"
       introPhoto = "/picture.jpg"
-      logo = "/blist-logo.png"
+      logo = "/ukrainer-logo.png"
     [[languages.fr.menu.main]]
         name = "Blog"
         url = "blog"
