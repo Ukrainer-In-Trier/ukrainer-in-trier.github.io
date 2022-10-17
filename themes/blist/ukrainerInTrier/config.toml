@@ -40,6 +40,11 @@ DefaultContentLanguageInSubdir = true
         url = "/en/blog/free-birds/"
         weight = 5
 
+         [[languages.en.menu.main]]
+        name = "Help"
+        url = "/en/blog/help-me/"
+        weight = 6
+
   [languages.de]
     contentDir = "content/de" # Deutsch
     weight = 2
