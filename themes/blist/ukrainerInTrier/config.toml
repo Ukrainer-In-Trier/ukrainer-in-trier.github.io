@@ -8,7 +8,7 @@ DefaultContentLanguageInSubdir = true
 [languages]
 
     [languages.uk]
-    contentDir = "content/uk" #Ukrain
+    contentDir = "content/uk" #Ukrainian
     weight = 1
     languageName = "Украинский"
     [languages.uk.params]
