@@ -36,6 +36,11 @@ DefaultContentLanguageInSubdir = true
         url = "/uk/blog/emoji-support/"
         weight = 4    
 
+         [[languages.en.menu.main]]
+        name = "Free Birds"
+        url = "/en/blog/free-birds/"
+        weight = 5
+
   [languages.de]
     contentDir = "content/de" # Deutsch
     weight = 2
@@ -61,6 +66,11 @@ DefaultContentLanguageInSubdir = true
         name = "Tags"
         url = "tags"
         weight = 3
+        
+     [[languages.de.menu.main]]
+        name = "Freie Vögel"
+       url = "/de/blog/free-birds/"
+        weight = 4   
 
     [languages.en]
     contentDir = "content/en" #English
@@ -114,6 +124,11 @@ DefaultContentLanguageInSubdir = true
         name = "Tags"
         url = "tags"
         weight = 3
+
+    [[languages.fr.menu.main]]
+        name = "Oiseaux Libres"
+        url = "/fr/blog/free-birds/"
+        weight = 4
 
 
 [params]
