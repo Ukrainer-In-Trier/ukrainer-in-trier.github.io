@@ -10,7 +10,7 @@ DefaultContentLanguageInSubdir = true
     [languages.uk]
     contentDir = "content/uk" #Ukrainian
     weight = 1
-    languageName = "Украинский"
+    languageName = "Український"
     [languages.uk.params]
       introTitle = "Hey! I'm Katheryn Fox"
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
