@@ -36,9 +36,9 @@ DefaultContentLanguageInSubdir = true
         url = "/uk/blog/emoji-support/"
         weight = 4    
 
-         [[languages.en.menu.main]]
+         [[languages.uk.menu.main]]
         name = "Free Birds"
-        url = "/en/blog/free-birds/"
+        url = "/uk/blog/free-birds/"
         weight = 5
 
   [languages.de]
@@ -97,9 +97,9 @@ DefaultContentLanguageInSubdir = true
         weight = 3
 
     [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4    
+        name = "Free birds"
+        url = "/en/blog/free-birds/"
+        weight = 4   
 
   [languages.fr]
     contentDir = "content/fr" #French
