@@ -3,41 +3,42 @@ metaDataFormat = "yaml"
 title = "Ukrainer In Trier"
 theme = "blist"
 
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "uk"
 DefaultContentLanguageInSubdir = true
 [languages]
-  [languages.en]
-    contentDir = "content/en" #English
+
+    [languages.uk]
+    contentDir = "content/uk" #Ukrainian
     weight = 1
-    languageName = "English"
-    [languages.en.params]
+    languageName = "Український"
+    [languages.uk.params]
       introTitle = "Hey! I'm Katheryn Fox"
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
       introPhoto = "/picture.jpg"
       logo = "/ukrainer-logo.png"
-    [[languages.en.menu.main]]
+    [[languages.uk.menu.main]]
         name = "Blog"
         url = "blog"
         weight = 1
 
-    [[languages.en.menu.main]]
+    [[languages.uk.menu.main]]
         name = "About"
         url = "page/about/"
         weight = 2
 
-    [[languages.en.menu.main]]
+    [[languages.uk.menu.main]]
         name = "Tags"
         url = "tags"
         weight = 3
 
-    [[languages.en.menu.main]]
+    [[languages.uk.menu.main]]
         name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
+        url = "/uk/blog/emoji-support/"
+        weight = 4    
 
-         [[languages.en.menu.main]]
+         [[languages.uk.menu.main]]
         name = "Free Birds"
-        url = "/en/blog/free-birds/"
+        url = "/uk/blog/free-birds/"
         weight = 5
 
   [languages.de]
@@ -65,15 +66,44 @@ DefaultContentLanguageInSubdir = true
         name = "Tags"
         url = "tags"
         weight = 3
-
-    [[languages.de.menu.main]]
+        
+     [[languages.de.menu.main]]
         name = "Freie Vögel"
        url = "/de/blog/free-birds/"
-        weight = 4
+        weight = 4   
+
+    [languages.en]
+    contentDir = "content/en" #English
+    weight = 3
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Hey! I'm Katheryn Fox"
+      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
+      introPhoto = "/picture.jpg"
+      logo = "/ukrainer-logo.png"
+    [[languages.en.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Free birds"
+        url = "/en/blog/free-birds/"
+        weight = 4   
 
   [languages.fr]
     contentDir = "content/fr" #French
-    weight = 1
+    weight = 4
     languageName = "Français"
     [languages.fr.params]
       introTitle = "Salut! Je suis Katheryn Fox"
@@ -100,10 +130,6 @@ DefaultContentLanguageInSubdir = true
         url = "/fr/blog/free-birds/"
         weight = 4
 
-  [languages.dy]
-    contentDir = "content/dy" #Example language
-    weight = 3
-    languageName = "Test Language"
 
 [params]
   # Enable the darkmode toggle in header
