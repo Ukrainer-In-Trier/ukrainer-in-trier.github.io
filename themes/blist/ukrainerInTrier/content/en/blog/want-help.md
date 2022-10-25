@@ -10,13 +10,13 @@ tags: ['help']
 <br>
 <div class="form-help">
   <form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="name" id="fname" name="fname" placeholder="Name"><br>
+  <label class="block text-m font-medium text-white-700" for="fname">First name:</label>
+  <input class="block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m" type="name" id="fname" name="fname" placeholder="Name"><br>
   <label for="email">Email address:</label><br>
-  <input type="email" id="email" name="email" placeholder="example@email.com"><br>
+  <input class="block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m" type="email" id="email" name="email" placeholder="example@email.com"><br>
   <label for="text">How can you help?</label><br>
-  <textarea type="text" id="text" name="text" placeholder="I can ..." rows="5" cols="28" class="textarea__help"></textarea><br><br>
-  <input class='submit__help' type="submit" value="Submit">
+  <textarea type="text" id="text" name="text" placeholder="I can ..." rows="5" cols="28" class="textarea__help block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m""></textarea><br><br>
+  <input class='text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-m px-5 py-2.5 text-center mr-2 mb-2' style= 'cursor: pointer;' type="submit" value="Submit">
 </form>
 </div>
 
