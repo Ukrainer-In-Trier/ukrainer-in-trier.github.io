@@ -47,3 +47,8 @@ textarea {
   background-color: #fff;
   color: #000;
 }
+.dark textarea,
+input {
+  color: #000;
+  opacity: 1;
+}
