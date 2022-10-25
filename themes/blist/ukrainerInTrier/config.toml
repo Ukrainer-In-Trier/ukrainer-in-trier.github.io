@@ -41,6 +41,11 @@ DefaultContentLanguageInSubdir = true
         url = "/uk/blog/free-birds/"
         weight = 5
 
+         [[languages.en.menu.main]]
+        name = "Help"
+        url = "/en/blog/help-me/"
+        weight = 6
+
   [languages.de]
     contentDir = "content/de" # Deutsch
     weight = 2
@@ -160,8 +165,7 @@ DefaultContentLanguageInSubdir = true
 
 [params.homepage.social]
   # Global params common for both languages
-  title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
+  title = "Follow us"
 
   linkedin = "https://linkedin.com/in/"
   xing = "https://www.xing.com/profile/"
