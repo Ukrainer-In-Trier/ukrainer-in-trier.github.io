@@ -1,10 +1,49 @@
 /* Tailwind base - put variables under: tailwind.config.js */
-@import "node_modules/tailwindcss/base";
+@import 'node_modules/tailwindcss/base';
 /* Tailwind component classes registered by plugins*/
-@import "node_modules/tailwindcss/components";
+@import 'node_modules/tailwindcss/components';
 /* Site Specific */
-@import "assets/css/site";
+@import 'assets/css/site';
 /* Paginator */
-@import "assets/css/paginator";
+@import 'assets/css/paginator';
 /* Tailwind's utility classes - generated based on config file */
-@import "node_modules/tailwindcss/utilities";
+@import 'node_modules/tailwindcss/utilities';
+
+input,
+textarea {
+  border: 2px solid #000;
+  border-radius: 2px;
+  padding: 0.75rem;
+}
+.submit__help {
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #000;
+}
+.submit__help:hover {
+  background-color: #000;
+  color: #fff;
+}
+.button__help {
+  border: 2px solid #000;
+  padding: 5px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  border-radius: 2px;
+}
+.button__help:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.dark .button__help {
+  border: 2px solid #fff;
+  padding: 5px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  border-radius: 2px;
+}
+.dark .button__help:hover {
+  background-color: #fff;
+  color: #000;
+}

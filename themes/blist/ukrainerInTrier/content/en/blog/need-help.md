@@ -7,15 +7,16 @@ tags: ['help']
 # thumbnail: https://picsum.photos/id/1050/400/250
 ---
 
+<br>
 <div class="form-help">
-    <form action="/action_page.php">
+  <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="name" id="fname" name="fname" placeholder="Name"><br>
-  <label for="mail">Mail address:</label><br>
-  <input type="mail" id="mail" name="mail" placeholder="example@mail.com"><br>
+  <label for="email">Email address:</label><br>
+  <input type="email" id="email" name="email" placeholder="example@email.com"><br>
   <label for="text">What help do you need?</label><br>
-  <input type="text" id="text" name="text" placeholder="I need ..."><br><br>
-  <input type="submit" value="Submit">
+  <textarea type="text" id="text" name="text" placeholder="I need ..." rows="5" cols="28" class="textarea__help"></textarea><br><br>
+  <input class='submit__help' type="submit" value="Submit">
 </form>
 </div>
 
@@ -31,6 +32,7 @@ tags: ['help']
 	font-size: 2rem;
 	vertical-align: middle;
 }
+
 
 @media screen and (max-width:650px) {
   .nowrap {

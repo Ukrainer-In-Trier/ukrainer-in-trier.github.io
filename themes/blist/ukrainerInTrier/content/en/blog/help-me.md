@@ -1,15 +1,13 @@
 ---
-author: 'Hugo Authors'
 title: 'Help'
-date: 2021-07-15
-description: 'Guide to emoji usage in Hugo'
+
 tags: ['help']
-# thumbnail: https://picsum.photos/id/1050/400/250
 ---
 
+<div class="buttons__help" style='display: flex; gap:50px; text-align: center; align-items: center;'>
 <div class="cta">
     <a href="/en/blog/want-help/">
-    <button style='border: 1px solid #fff; padding: 5px; margin-top: 20px'>
+    <button class="button__help">
         I want to help
     </button>
     </a>
@@ -17,15 +15,12 @@ tags: ['help']
 
 <div class="cta">
     <a href="/en/blog/need-help/">
-    <button style='border: 1px solid #fff; padding: 5px; margin-top: 20px'>
+    <button class="button__help">
         I need help
     </button>
     </a>
 </div>
-
-<!--more-->
-
----
+</div>
 
 {{< css.inline >}}
 
@@ -35,6 +30,7 @@ tags: ['help']
 	font-size: 2rem;
 	vertical-align: middle;
 }
+
 
 @media screen and (max-width:650px) {
   .nowrap {
