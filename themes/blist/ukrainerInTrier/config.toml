@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hey! I'm Katheryn Fox"
       introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
       introPhoto = "/picture.jpg"
-      logo = "/ukrainer-logo.png"
+      logo = "/logo.svg"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -50,7 +50,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Hallo, ich bin Katheryn Fox"
       introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
       introPhoto = "/picture.jpg"
-      logo = "/ukrainer-logo.png"
+      logo = "/logo.svg"
     [[languages.de.menu.main]]
         name = "Blog"
         url = "blog"
@@ -79,7 +79,7 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Salut! Je suis Katheryn Fox"
       introSubtitle = "Développeuse junior de 26 ans qui adore les jeux de société, le blogging et la peinture"
       introPhoto = "/picture.jpg"
-      logo = "/ukrainer-logo.png"
+      logo = "/logo.svg"
     [[languages.fr.menu.main]]
         name = "Blog"
         url = "blog"
@@ -123,6 +123,9 @@ DefaultContentLanguageInSubdir = true
 
   # The page bundle that is shown on the front page
   frontBundle = "blog"
+
+  #Logotype svg 
+  logotype = "/logo.html"
 
   # Used to hide the post metadata such as posted date, reading time and word count
   # Can be used at site level or page level
