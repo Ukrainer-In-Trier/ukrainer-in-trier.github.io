@@ -3,7 +3,7 @@ author: 'Hugo Authors'
 title: 'Creative team "Free Birds"'
 date: 2021-07-15
 description: 'Guide to emoji usage in Hugo'
-tags: ['emoji']
+tags: ['"Free Birds"']
 thumbnail: https://picsum.photos/id/1050/400/250
 ---
 
