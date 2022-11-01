@@ -36,7 +36,7 @@ DefaultContentLanguageInSubdir = true
         url = "/uk/blog/emoji-support/"
         weight = 4    
 
-         [[languages.uk.menu.main]]
+    [[languages.uk.menu.main]]
         name = "Free Birds"
         url = "/uk/blog/free-birds/"
         weight = 5
@@ -45,6 +45,13 @@ DefaultContentLanguageInSubdir = true
         name = "Help"
         url = "/en/blog/help-me/"
         weight = 6
+
+    [[languages.uk.menu.main]]
+        name = "Partners"
+        url = "/uk/blog/partners/"
+        weight = 7
+
+
 
   [languages.de]
     contentDir = "content/de" # Deutsch
@@ -72,10 +79,15 @@ DefaultContentLanguageInSubdir = true
         url = "tags"
         weight = 3
         
-     [[languages.de.menu.main]]
+    [[languages.de.menu.main]]
         name = "Freie Vögel"
        url = "/de/blog/free-birds/"
-        weight = 4   
+        weight = 4  
+
+    [[languages.de.menu.main]]
+        name = "Partner"
+        url = "/de/blog/partners/"
+        weight = 7
 
     [languages.en]
     contentDir = "content/en" #English
@@ -104,7 +116,12 @@ DefaultContentLanguageInSubdir = true
     [[languages.en.menu.main]]
         name = "Free birds"
         url = "/en/blog/free-birds/"
-        weight = 4   
+        weight = 4 
+
+    [[languages.en.menu.main]]
+        name = "Partners"
+        url = "/en/blog/partners/"
+        weight = 7 
 
   [languages.fr]
     contentDir = "content/fr" #French
@@ -134,6 +151,11 @@ DefaultContentLanguageInSubdir = true
         name = "Oiseaux Libres"
         url = "/fr/blog/free-birds/"
         weight = 4
+
+    [[languages.fr.menu.main]]
+        name = "Les partenaires"
+        url = "/fr/blog/partners/"
+        weight = 7
 
 
 [params]
