@@ -12,9 +12,12 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "Український"
     [languages.uk.params]
-      introTitle = "Hey! I'm Katheryn Fox"
-      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
-      introPhoto = "/picture.jpg"
+      introTitle = "Ukrainer "
+      introTitle2 = "in Trier"
+      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
+      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
+      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
+      introPhoto = "/1.webp"
       logo = "/logo.svg"
     [[languages.uk.menu.main]]
         name = "Blog"
