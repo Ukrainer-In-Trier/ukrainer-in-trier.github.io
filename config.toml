@@ -1,0 +1,228 @@
+baseurl = "https://ukrainer-in-trier.github.io"
+metaDataFormat = "yaml"
+title = "Ukrainer In Trier"
+theme = "blist"
+
+DefaultContentLanguage = "uk"
+DefaultContentLanguageInSubdir = true
+[languages]
+
+    [languages.uk]
+    contentDir = "content/uk" #Ukrainian
+    weight = 1
+    languageName = "Український"
+    [languages.uk.params]
+      introTitle = "Ukrainer "
+      introTitle2 = "in Trier"
+      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
+      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
+      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
+      introPhoto = "/1.webp"
+      logo = "/logo.svg"
+    [[languages.uk.menu.main]]
+        name = "News"
+        url = "blog"
+        weight = 1
+
+    [[languages.uk.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.uk.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.uk.menu.main]]
+        name = "Top Post"
+        url = "/uk/blog/emoji-support/"
+        weight = 4    
+
+    [[languages.uk.menu.main]]
+        name = "Free Birds"
+        url = "/uk/blog/free-birds/"
+        weight = 5
+
+         [[languages.en.menu.main]]
+        name = "Help"
+        url = "/en/blog/help-me/"
+        weight = 6
+
+    [[languages.uk.menu.main]]
+        name = "Partners"
+        url = "/uk/blog/partners/"
+        weight = 7
+
+
+
+  [languages.de]
+    contentDir = "content/de" # Deutsch
+    weight = 2
+    languageName = "Deutsch"
+    title = "Blist (mehrsprachig)"
+    description = "Modernes Blog-Theme für Ihre Hugo-Site."
+    [languages.de.params]
+      introTitle = "Ukrainer "
+      introTitle2 = "in Trier"
+      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
+      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
+      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
+      introPhoto = "/1.webp"
+      logo = "logo.svg"
+    [[languages.de.menu.main]]
+        name = "Nachrichten"
+        url = "blog"
+        weight = 1
+
+    [[languages.de.menu.main]]
+        name = "Über mich"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.de.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+        
+    [[languages.de.menu.main]]
+        name = "Freie Vögel"
+       url = "/de/blog/free-birds/"
+        weight = 4  
+
+    [[languages.de.menu.main]]
+        name = "Partner"
+        url = "/de/blog/partners/"
+        weight = 7
+
+    [languages.en]
+    contentDir = "content/en" #English
+    weight = 3
+    languageName = "English"
+    [languages.en.params]
+      introTitle = "Ukrainer "
+      introTitle2 = "in Trier"
+      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
+      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
+      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
+      introPhoto = "/1.webp"
+      logo = "/logo.svg"
+    [[languages.en.menu.main]]
+        name = "News"
+        url = "blog"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.en.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Free birds"
+        url = "/en/blog/free-birds/"
+        weight = 4 
+
+    [[languages.en.menu.main]]
+        name = "Partners"
+        url = "/en/blog/partners/"
+        weight = 7 
+
+  [languages.fr]
+    contentDir = "content/fr" #French
+    weight = 4
+    languageName = "Français"
+    [languages.fr.params]
+      introTitle = "Ukrainer "
+      introTitle2 = "in Trier"
+      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
+      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
+      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
+      introPhoto = "/1.webp"
+      logo = "/logo.svg"
+    [[languages.fr.menu.main]]
+        name = "Nouvelles"
+        url = "blog"
+        weight = 1
+
+    [[languages.fr.menu.main]]
+        name = "À propos"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.fr.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.fr.menu.main]]
+        name = "Oiseaux Libres"
+        url = "/fr/blog/free-birds/"
+        weight = 4
+
+    [[languages.fr.menu.main]]
+        name = "Les partenaires"
+        url = "/fr/blog/partners/"
+        weight = 7
+
+
+[params]
+  # Enable the darkmode toggle in header
+  darkModeToggle = true
+
+  # Enable search in header
+  enableSearch = true
+
+  # Custom copyright - optional
+  copyright = "Copyright © 2022 - Ukrainer in Trier · All rights reserved"
+  favicon = "/favicon.svg"
+
+  # Color for the intro details and social links block, not applicable for dark mode
+  # Supported values: Any color from TailwindCSS default colors
+  # Reference: https://tailwindcss.com/docs/customizing-colors
+  ascentColor = "bg-blue-100"
+
+  # The page bundle that is shown on the front page
+  frontBundle = "blog"
+
+  # Used to hide the post metadata such as posted date, reading time and word count
+  # Can be used at site level or page level
+  hideMeta = false
+
+  # To hide "Other languages" option if the post is available in multiple languages
+  # Can be used at site level or page level
+  hideOtherLanguages = false
+
+[params.homepage.social]
+  # Global params common for both languages
+  title = "Follow us"
+
+  linkedin = "https://linkedin.com/in/"
+  xing = "https://www.xing.com/profile/"
+  github = "https://github.com/"
+  medium = "https://medium.com/"
+  reddit = "https://reddit.com/"
+  dribbble = "https://dribbble.com/"
+  stackoverflow = "https://stackoverflow.com/"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[build]
+  writeStats = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true

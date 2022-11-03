@@ -1,8 +1,9 @@
 *.idea
 themes/blist/node_modules
-themes/blist/exampleSite/public
 themes/blist/ukrinerInTrier/public
-themes/blist/exampleSite/hugo_stats.json
 themes/blist/ukrainerInTrier/hugo_stats.json
+resources/
+node_modules/
+public/
 *.DS_Store
 
