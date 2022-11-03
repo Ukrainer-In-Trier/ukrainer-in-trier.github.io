@@ -1,7 +1,7 @@
 name: CI
 on: 
   push:
-    branches: [ master ]
+    branches: actions
 jobs:
   deploy:
     runs-on: ubuntu-18.04
@@ -23,11 +23,11 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.Token }}
+          personal_token: ${{ secrets.TOKEN }}
           external_repository: ukrainer-in-trier.github.io
           publish_dir: ./public
           #   keep_files: true
-          user_name: <username>
+          user_name: ukrainer-in-trier
           user_email: <username@email.com>
           publish_branch: master
         #   cname: example.com
