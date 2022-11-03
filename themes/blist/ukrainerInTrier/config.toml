@@ -19,9 +19,10 @@ DefaultContentLanguageInSubdir = true
       introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
       introPhoto = "/1.webp"
       logo = "/logo.svg"
+
     [[languages.uk.menu.main]]
-        name = "Blog"
-        url = "blog"
+        name = "Contact"
+        url = "contact"
         weight = 1
 
     [[languages.uk.menu.main]]
@@ -44,7 +45,7 @@ DefaultContentLanguageInSubdir = true
         url = "/uk/blog/free-birds/"
         weight = 5
 
-         [[languages.en.menu.main]]
+    [[languages.en.menu.main]]
         name = "Help"
         url = "/en/blog/help-me/"
         weight = 6
@@ -71,8 +72,8 @@ DefaultContentLanguageInSubdir = true
       introPhoto = "/1.webp"
       logo = "logo.svg"
     [[languages.de.menu.main]]
-        name = "Blog"
-        url = "blog"
+        name = "Kontakt"
+        url = "kontakt"
         weight = 1
 
     [[languages.de.menu.main]]
@@ -108,8 +109,8 @@ DefaultContentLanguageInSubdir = true
       introPhoto = "/1.webp"
       logo = "/logo.svg"
     [[languages.en.menu.main]]
-        name = "Blog"
-        url = "blog"
+        name = "Contact"
+        url = "contact"
         weight = 1
 
     [[languages.en.menu.main]]
@@ -145,8 +146,8 @@ DefaultContentLanguageInSubdir = true
       introPhoto = "/1.webp"
       logo = "/logo.svg"
     [[languages.fr.menu.main]]
-        name = "Blog"
-        url = "blog"
+        name = "Contact"
+        url = "contact"
         weight = 1
 
     [[languages.fr.menu.main]]
@@ -187,7 +188,7 @@ DefaultContentLanguageInSubdir = true
   ascentColor = "bg-blue-100"
 
   # The page bundle that is shown on the front page
-  frontBundle = "blog"
+  frontBundle = "contact"
 
   # Used to hide the post metadata such as posted date, reading time and word count
   # Can be used at site level or page level
