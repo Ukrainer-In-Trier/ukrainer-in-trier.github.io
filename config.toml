@@ -44,9 +44,9 @@ DefaultContentLanguageInSubdir = true
         url = "/uk/blog/free-birds/"
         weight = 5
 
-         [[languages.en.menu.main]]
+         [[languages.uk.menu.main]]
         name = "Help"
-        url = "/en/blog/help-me/"
+        url = "/uk/blog/help-me/"
         weight = 6
 
     [[languages.uk.menu.main]]
@@ -89,6 +89,11 @@ DefaultContentLanguageInSubdir = true
         name = "Freie Vögel"
        url = "/de/blog/free-birds/"
         weight = 4  
+    
+    [[languages.de.menu.main]]
+        name = "Help"
+        url = "/de/blog/help-me/"
+        weight = 6
 
     [[languages.de.menu.main]]
         name = "Partner"
@@ -126,6 +131,11 @@ DefaultContentLanguageInSubdir = true
         name = "Free birds"
         url = "/en/blog/free-birds/"
         weight = 4 
+    
+    [[languages.en.menu.main]]
+        name = "Help"
+        url = "/en/blog/help-me/"
+        weight = 6
 
     [[languages.en.menu.main]]
         name = "Partners"
@@ -163,6 +173,11 @@ DefaultContentLanguageInSubdir = true
         name = "Oiseaux Libres"
         url = "/fr/blog/free-birds/"
         weight = 4
+    
+    [[languages.fr.menu.main]]
+        name = "Help"
+        url = "/fr/blog/help-me/"
+        weight = 6
 
     [[languages.fr.menu.main]]
         name = "Les partenaires"
