@@ -19,6 +19,7 @@ DefaultContentLanguageInSubdir = true
       introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
       introPhoto = "/1.webp"
       logo = "/logo.svg"
+
     [[languages.uk.menu.main]]
         name = "News"
         url = "blog"
@@ -32,19 +33,14 @@ DefaultContentLanguageInSubdir = true
     [[languages.uk.menu.main]]
         name = "Tags"
         url = "tags"
-        weight = 3
-
-    [[languages.uk.menu.main]]
-        name = "Top Post"
-        url = "/uk/blog/emoji-support/"
-        weight = 4    
+        weight = 3  
 
     [[languages.uk.menu.main]]
         name = "Free Birds"
         url = "/uk/blog/free-birds/"
         weight = 5
 
-         [[languages.uk.menu.main]]
+    [[languages.uk.menu.main]]
         name = "Help"
         url = "/uk/blog/help-me/"
         weight = 6
@@ -69,7 +65,7 @@ DefaultContentLanguageInSubdir = true
       introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
       introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
       introPhoto = "/1.webp"
-      logo = "logo.svg"
+      logo = "/logo.svg"
     [[languages.de.menu.main]]
         name = "Nachrichten"
         url = "blog"
@@ -100,7 +96,7 @@ DefaultContentLanguageInSubdir = true
         url = "/de/blog/partners/"
         weight = 7
 
-    [languages.en]
+  [languages.en]
     contentDir = "content/en" #English
     weight = 3
     languageName = "English"

@@ -1,8 +1,19 @@
-<section class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
-  <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-2 gap-4 lg:gap-16 items-center">
-    <div>
-      <h1 class="text-4xl font-bold mb-4">{{ .Site.Params.introTitle | safeHTML}}</h1>
-      <p class="font-light text-lg">{{ .Site.Params.introSubtitle | safeHTML}}</p>
+<section class="{{ .Site.Params.ascentColor | default " bg-pink-50" }} dark:bg-gray-900">
+  <div class="container mx-auto px-6 py-12 grid md:grid-cols-2 gap-4 lg:gap-16 items-center">
+    <div class="leading-10 text-justify ">
+      <div class="mb-8">
+        <h1 class="text-4xl uppercase font-extrabold inline">{{ .Site.Params.introTitle | safeHTML}}</h1>
+        <h1 class="text-4xl uppercase font-extrabold mb-4 text-red-600 inline">{{ .Site.Params.introTitle2 | safeHTML}}
+        </h1> <span class="text-xl font-semibold inline">{{ .Site.Params.introSubtitle | safeHTML}}</span>
+      </div>
+      <div class="text-xl leading-10 ">
+        <p>
+          {{ .Site.Params.introSubtitle2 | safeHTML}}
+        </p>
+        <p>
+          {{ .Site.Params.introSubtitle3 | safeHTML}}
+        </p>
+      </div>
     </div>
     <img class="rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
   </div>
