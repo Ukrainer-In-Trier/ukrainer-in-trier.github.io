@@ -12,6 +12,10 @@ Website will be here: http://ukrainer-in-trier.github.io/
 6. Clone [repo](https://github.com/Ukrainer-In-Trier/ukrainer-in-trier) by SSH
 7. `cd ukrainer-in-trier`
 8. `git checkout develop`
-9. `git checkout -b yourFeatureName`
-10. `cd themes/blist/ukrainerInTrier/
-    hugo serve --themesDir ../..`
+9. `git pull origin develop`
+10. `git checkout -b yourFeatureName`
+11. `npm install`
+12. `npm i -g postcss-cli`
+12. `npm start`
+
+! All files and folders was replaced from ukrainerInTrier to the root of project.
