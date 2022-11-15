@@ -12,8 +12,7 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "Український"
     [languages.uk.params]
-      introTitle = "Ukrainer "
-      introTitle2 = "in Trier"
+      introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
       introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
       introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
       introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
@@ -37,7 +36,7 @@ DefaultContentLanguageInSubdir = true
     [[languages.uk.menu.main]]
         name = "Top Post"
         url = "/uk/blog/emoji-support/"
-        weight = 4    
+        weight = 4
 
     [[languages.uk.menu.main]]
         name = "Free Birds"
@@ -63,8 +62,7 @@ DefaultContentLanguageInSubdir = true
     title = "Blist (mehrsprachig)"
     description = "Modernes Blog-Theme für Ihre Hugo-Site."
     [languages.de.params]
-      introTitle = "Ukrainer "
-      introTitle2 = "in Trier"
+      introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
       introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
       introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
       introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
@@ -84,11 +82,11 @@ DefaultContentLanguageInSubdir = true
         name = "Tags"
         url = "tags"
         weight = 3
-        
+
     [[languages.de.menu.main]]
         name = "Freie Vögel"
        url = "/de/blog/free-birds/"
-        weight = 4  
+        weight = 4
 
     [[languages.de.menu.main]]
         name = "Hilfe"
@@ -105,8 +103,7 @@ DefaultContentLanguageInSubdir = true
     weight = 3
     languageName = "English"
     [languages.en.params]
-      introTitle = "Ukrainer "
-      introTitle2 = "in Trier"
+      introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
       introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
       introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
       introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
@@ -130,8 +127,8 @@ DefaultContentLanguageInSubdir = true
     [[languages.en.menu.main]]
         name = "Free birds"
         url = "/en/blog/free-birds/"
-        weight = 4 
-    
+        weight = 4
+
     [[languages.en.menu.main]]
         name = "Help"
         url = "/en/blog/help-me/"
@@ -140,15 +137,14 @@ DefaultContentLanguageInSubdir = true
     [[languages.en.menu.main]]
         name = "Partners"
         url = "/en/blog/partners/"
-        weight = 7 
+        weight = 7
 
   [languages.fr]
     contentDir = "content/fr" #French
     weight = 4
     languageName = "Français"
     [languages.fr.params]
-      introTitle = "Ukrainer "
-      introTitle2 = "in Trier"
+      introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
       introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
       introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
       introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
