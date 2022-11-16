@@ -63,8 +63,6 @@
         <!-- Dropdown menu -->
         <div
         x-show="open"
-        x-transition:enter.duration.500ms
-        x-transition:leave.duration.800ms
         class="absolute place-items-center w-48 py-2 mt-2 bg-white bg-gray-100 rounded-md shadow-xl"
         >
         {{ range .Children }}
@@ -209,3 +207,5 @@
     {{ end }}
   </ul>
 </header>
+
+<script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
