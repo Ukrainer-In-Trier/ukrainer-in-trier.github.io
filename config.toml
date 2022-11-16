@@ -50,22 +50,20 @@ DefaultContentLanguageInSubdir = true
         weight = 6
 
      [[languages.uk.menu.main]]
-        identifier = "needHelp"
         name = "I need help"
-        url = "/uk/blog/help-me/"
+        url = "/uk/blog/need-help/"
         weight = 1   
         parent = "Help"
         
      [[languages.uk.menu.main]]
-        identifier = "I want to help"
-        name = "Help"
-        url = "/en/blog/want-help/"
+        name = "I want to help"
+        url = "/uk/blog/want-help/"
         weight = 2  
         parent = "Help"
 
     [[languages.uk.menu.main]]
         name = "Partners"
-        url = "/en/blog/need-help/"
+        url = "/uk/blog/need-help/"
         weight = 7
 
 
@@ -104,9 +102,22 @@ DefaultContentLanguageInSubdir = true
         weight = 4
 
     [[languages.de.menu.main]]
+        identifier = "hilfe"
         name = "Hilfe"
         url = "/de/blog/help-me/"
         weight = 6
+
+    [[languages.de.menu.main]]
+        name = "Ich brauche Hilfe"
+        url = "/de/blog/need-help/"
+        weight = 1   
+        parent = "hilfe"
+        
+     [[languages.de.menu.main]]
+        name = "Ich möchte helfen"
+        url = "/de/blog/want-help/"
+        weight = 2  
+        parent = "hilfe"
 
     [[languages.de.menu.main]]
         name = "Partner"
@@ -149,6 +160,18 @@ DefaultContentLanguageInSubdir = true
         url = "/en/blog/help-me/"
         weight = 6
 
+        [[languages.en.menu.main]]
+        name = "I need help"
+        url = "/en/blog/need-help/"
+        weight = 1   
+        parent = "Help"
+        
+     [[languages.en.menu.main]]
+        name = "I want to help"
+        url = "/en/blog/want-help/"
+        weight = 2  
+        parent = "Help"
+
     [[languages.en.menu.main]]
         name = "Partners"
         url = "/en/blog/partners/"
@@ -186,9 +209,22 @@ DefaultContentLanguageInSubdir = true
         weight = 4
 
     [[languages.fr.menu.main]]
+        identifier = "aider"
         name = "Aider"
         url = "/fr/blog/help-me/"
         weight = 6
+
+    [[languages.fr.menu.main]]
+        name = "J'ai besoin d'aide"
+        url = "/fr/blog/need-help/"
+        weight = 1   
+        parent = "aider"
+        
+     [[languages.fr.menu.main]]
+        name = "Je veux aider"
+        url = "/fr/blog/want-help/"
+        weight = 2  
+        parent = "aider"
 
     [[languages.fr.menu.main]]
         name = "Les partenaires"
