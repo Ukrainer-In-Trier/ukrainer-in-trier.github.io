@@ -65,6 +65,8 @@
       "use"
     ],
     "classes": [
+      "-center",
+      "-right0",
       "__h_video",
       "absolute",
       "active",
@@ -79,6 +81,9 @@
       "bottom-44",
       "canon",
       "capitalize",
+      "cen",
+      "cen-0",
+      "center",
       "close-search",
       "container",
       "cta",
