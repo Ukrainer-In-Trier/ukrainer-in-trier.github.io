@@ -31,8 +31,30 @@
   <ul
     class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 bg-white dark:bg-gray-800"
   >
-    {{ range .Site.Menus.main }}
-    <li class="p-1"><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+          <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+              <a href="#">
+                  {{ .Pre }}
+                  <span>{{ .Name }}</span>
+              </a>
+          </li>
+          <ul class="sub-menu">
+              {{ range .Children }}
+                  <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                      <a href="{{ .URL }}">{{ .Name }}</a>
+                  </li>
+              {{ end }}
+          </ul>
+      {{ else }}
+          <li>
+              <a href="{{ .URL }}">
+                  {{ .Pre }}
+                  <span>{{ .Name }}</span>
+              </a>
+          </li>
+      {{ end }}
     {{ end }} {{ if .Site.IsMultiLingual }} {{ if ge (len .Site.Languages) 3 }}
     <li class="relative cursor-pointer">
       <span class="language-switcher flex items-center gap-2">

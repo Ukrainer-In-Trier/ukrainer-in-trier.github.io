@@ -44,13 +44,28 @@ DefaultContentLanguageInSubdir = true
         weight = 5
 
     [[languages.uk.menu.main]]
+        identifier = "Help"
         name = "Help"
         url = "/uk/blog/help-me/"
         weight = 6
 
+     [[languages.uk.menu.main]]
+        identifier = "needHelp"
+        name = "I need help"
+        url = "/uk/blog/help-me/"
+        weight = 1   
+        parent = "Help"
+        
+     [[languages.uk.menu.main]]
+        identifier = "I want to help"
+        name = "Help"
+        url = "/en/blog/want-help/"
+        weight = 2  
+        parent = "Help"
+
     [[languages.uk.menu.main]]
         name = "Partners"
-        url = "/uk/blog/partners/"
+        url = "/en/blog/need-help/"
         weight = 7
 
 
