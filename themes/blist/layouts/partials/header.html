@@ -34,19 +34,44 @@
   {{ $currentPage := . }}
   {{ range .Site.Menus.main }}
       {{ if .HasChildren }}
-          <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-              <a href="#">
-                  {{ .Pre }}
-                  <span>{{ .Name }}</span>
-              </a>
-          </li>
-          <ul class="sub-menu">
-              {{ range .Children }}
+      <div x-data="{ open: false }" @mouseleave="open = false" class="relative">
+        <!-- Dropdown toggle button -->
+        <button
+          @mouseover="open = true"
+          class="flex items-center block p-2 bg-white rounded-md"
+        >
+        <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+          <a href={{.URL}}>
+              {{ .Pre }}
+              <span>{{ .Name }}</span>
+          </a>
+      </li>
+          <svg
+            class="w-6 h-6 text-white text-gray-800"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </button>
+  
+        <!-- Dropdown menu -->
+        <ul
+          x-show="open"
+          class="absolute right-0 w-48 py-2 mt-2 bg-gray-100 rounded-md shadow-xl"
+        >
+        {{ range .Children }}
                   <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                      <a href="{{ .URL }}">{{ .Name }}</a>
+                      <a href="{{ .URL }}" class="block px-4 py-2 text-sm text-gray-300 text-gray-700 hover:bg-gray-400 hover:text-white">{{ .Name }}</a>
                   </li>
               {{ end }}
-          </ul>
+        </ul>
+      </div>
       {{ else }}
           <li>
               <a href="{{ .URL }}">
