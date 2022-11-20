@@ -50,7 +50,7 @@ Blist theme ships with an fully configured example site. For a quick preview:
 Copy the `package.json` file from `themes/showcase` folder to your hugo website root folder, and run `npm install`.
 
 ```sh
-cd themes/blist/exampleSite/
+cd themes/blist/ukrainerInTrier/
 hugo serve --themesDir ../..
 ```
 
@@ -77,7 +77,7 @@ The parameter `HUGO_ENVIRONMENT=production` enables the execution of css purging
 
 ## Add content
 
-The following explains how to add content to your Hugo site. You can find sample content in the `exampleSite/` folder.
+The following explains how to add content to your Hugo site. You can find sample content in the `ukrainerInTrier/` folder.
 
 ### Structure:
 
@@ -91,7 +91,7 @@ The following explains how to add content to your Hugo site. You can find sample
 
 ## Configure your site
 
-From `exampleSite/`, copy `config.toml` to the root folder of your Hugo site and change the fields as you like. Helpful comments are provided.
+From `ukrainerInTrier/`, copy `config.toml` to the root folder of your Hugo site and change the fields as you like. Helpful comments are provided.
 
 ### Menu
 

@@ -6,31 +6,31 @@ theme = "blist"
 DefaultContentLanguage = "uk"
 DefaultContentLanguageInSubdir = true
 [languages]
-
     [languages.uk]
-    contentDir = "content/uk" #Ukrainian
-    weight = 1
-    languageName = "Український"
+        contentDir = "content/uk" #Ukrainian
+        weight = 1
+        languageName = "Український"
     [languages.uk.params]
-      introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
-      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
-      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
-      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
-      introPhoto = "/1.webp"
-      logo = "/logo.svg"
+        introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
+        introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
+        introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
+        introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
+        introPhoto = "/1.webp"
+        logo = "/logo.svg"
+
     [[languages.uk.menu.main]]
         name = "News"
-        url = "blog"
+        url = "/uk/blog"
         weight = 1
 
     [[languages.uk.menu.main]]
         name = "About"
-        url = "page/about/"
+        url = "/uk/about/"
         weight = 2
 
     [[languages.uk.menu.main]]
         name = "Tags"
-        url = "tags"
+        url = "/uk/tags"
         weight = 3
 
     [[languages.uk.menu.main]]
@@ -40,147 +40,148 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.uk.menu.main]]
         name = "Free Birds"
-        url = "/uk/blog/free-birds/"
+        url = "/uk/free-birds/"
         weight = 5
 
     [[languages.uk.menu.main]]
         identifier = "Help"
         name = "Help"
-        url = "/uk/blog/help-me/"
+        url = "/uk/help/help-me/"
         weight = 6
 
      [[languages.uk.menu.main]]
         name = "I need help"
-        url = "/uk/blog/need-help/"
+        url = "/uk/help/need-help/"
         weight = 1   
         parent = "Help"
         
      [[languages.uk.menu.main]]
         name = "I want to help"
-        url = "/uk/blog/want-help/"
+        url = "/uk/help/want-help/"
         weight = 2  
         parent = "Help"
 
     [[languages.uk.menu.main]]
         name = "Partners"
-        url = "/uk/blog/need-help/"
+        url = "/uk/partners"
         weight = 7
 
-
-
-  [languages.de]
-    contentDir = "content/de" # Deutsch
-    weight = 2
-    languageName = "Deutsch"
-    title = "Blist (mehrsprachig)"
-    description = "Modernes Blog-Theme für Ihre Hugo-Site."
+    [languages.de]
+        contentDir = "content/de" # Deutsch
+        weight = 2
+        languageName = "Deutsch"
+        title = "Blist (mehrsprachig)"
+        description = "Modernes Blog-Theme für Ihre Hugo-Site."
     [languages.de.params]
-      introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
-      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
-      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
-      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
-      introPhoto = "/1.webp"
-      logo = "/logo.svg"
+        introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
+        introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
+        introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
+        introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
+        introPhoto = "/1.webp"
+        logo = "/logo.svg"
+
     [[languages.de.menu.main]]
         name = "Nachrichten"
-        url = "blog"
+        url = "/de/blog"
         weight = 1
 
     [[languages.de.menu.main]]
         name = "Über mich"
-        url = "page/about/"
+        url = "/de/about"
         weight = 2
 
     [[languages.de.menu.main]]
         name = "Tags"
-        url = "tags"
+        url = "/de/tags"
         weight = 3
 
     [[languages.de.menu.main]]
         name = "Freie Vögel"
-       url = "/de/blog/free-birds/"
+       url = "/de/free-birds/"
         weight = 4
 
     [[languages.de.menu.main]]
         identifier = "hilfe"
         name = "Hilfe"
-        url = "/de/blog/help-me/"
+        url = "/de/help"
         weight = 6
 
     [[languages.de.menu.main]]
         name = "Ich brauche Hilfe"
-        url = "/de/blog/need-help/"
+        url = "/de/help/need-help/"
         weight = 1   
         parent = "hilfe"
         
      [[languages.de.menu.main]]
         name = "Ich möchte helfen"
-        url = "/de/blog/want-help/"
+        url = "/de/help/want-help/"
         weight = 2  
         parent = "hilfe"
 
     [[languages.de.menu.main]]
         name = "Partner"
-        url = "/de/blog/partners/"
+        url = "/de/partners/"
         weight = 7
 
     [languages.en]
-    contentDir = "content/en" #English
-    weight = 3
-    languageName = "English"
+        contentDir = "content/en" #English
+        weight = 3
+        languageName = "English"
     [languages.en.params]
-      introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
-      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
-      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
-      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
-      introPhoto = "/1.webp"
-      logo = "/logo.svg"
+        introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
+        introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
+        introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
+        introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
+        introPhoto = "/1.webp"
+        logo = "/logo.svg"
+
     [[languages.en.menu.main]]
         name = "News"
-        url = "blog"
+        url = "/en/blog"
         weight = 1
 
     [[languages.en.menu.main]]
         name = "About"
-        url = "page/about/"
+        url = "/en/about/"
         weight = 2
 
     [[languages.en.menu.main]]
         name = "Tags"
-        url = "tags"
+        url = "/en/tags"
         weight = 3
 
     [[languages.en.menu.main]]
         name = "Free birds"
-        url = "/en/blog/free-birds/"
+        url = "/en/free-birds/"
         weight = 4
 
     [[languages.en.menu.main]]
         name = "Help"
-        url = "/en/blog/help-me/"
+        url = "/en/help"
         weight = 6
 
         [[languages.en.menu.main]]
         name = "I need help"
-        url = "/en/blog/need-help/"
+        url = "/en/help/need-help/"
         weight = 1   
         parent = "Help"
         
      [[languages.en.menu.main]]
         name = "I want to help"
-        url = "/en/blog/want-help/"
+        url = "/en/help/want-help/"
         weight = 2  
         parent = "Help"
 
     [[languages.en.menu.main]]
         name = "Partners"
-        url = "/en/blog/partners/"
+        url = "/en/partners/"
         weight = 7
 
-  [languages.fr]
-    contentDir = "content/fr" #French
-    weight = 4
-    languageName = "Français"
+    [languages.fr]
+        contentDir = "content/fr" #French
+        weight = 4
+        languageName = "Français"
+
     [languages.fr.params]
       introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
       introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
@@ -188,49 +189,49 @@ DefaultContentLanguageInSubdir = true
       introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
       introPhoto = "/1.webp"
       logo = "/logo.svg"
+
     [[languages.fr.menu.main]]
         name = "Nouvelles"
-        url = "blog"
+        url = "/blog"
         weight = 1
 
     [[languages.fr.menu.main]]
         name = "À propos"
-        url = "page/about/"
+        url = "/about/"
         weight = 2
 
     [[languages.fr.menu.main]]
         name = "Tags"
-        url = "tags"
+        url = "/tags"
         weight = 3
 
     [[languages.fr.menu.main]]
         name = "Oiseaux Libres"
-        url = "/fr/blog/free-birds/"
+        url = "/fr/free-birds/"
         weight = 4
 
     [[languages.fr.menu.main]]
         identifier = "aider"
         name = "Aider"
-        url = "/fr/blog/help-me/"
+        url = "/fr/help"
         weight = 6
 
     [[languages.fr.menu.main]]
         name = "J'ai besoin d'aide"
-        url = "/fr/blog/need-help/"
+        url = "/fr/help/need-help/"
         weight = 1   
         parent = "aider"
         
      [[languages.fr.menu.main]]
         name = "Je veux aider"
-        url = "/fr/blog/want-help/"
+        url = "/fr/help/want-help/"
         weight = 2  
         parent = "aider"
 
     [[languages.fr.menu.main]]
         name = "Les partenaires"
-        url = "/fr/blog/partners/"
+        url = "/fr/partners/"
         weight = 7
-
 
 [params]
   # Enable the darkmode toggle in header
