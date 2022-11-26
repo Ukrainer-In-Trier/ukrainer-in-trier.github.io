@@ -45,63 +45,14 @@
 {{ if .Site.Params.enableSearch }} {{- partial "search-ui.html" . -}} {{ end }}
 {{ template "_internal/google_analytics.html" . }} {{ if ge (len
 .Site.Languages) 3 }}
-<script>
-  const languageMenuButton = document.querySelector('.language-switcher');
-  const languageDropdown = document.querySelector('.language-dropdown');
-  languageMenuButton.addEventListener('click', (evt) => {
-    evt.preventDefault();
-    if (languageDropdown.classList.contains('hidden')) {
-      languageDropdown.classList.remove('hidden');
-      languageDropdown.classList.add('flex');
-    } else {
-      languageDropdown.classList.add('hidden');
-      languageDropdown.classList.remove('flex');
-    }
-  });
-</script>
+<script src="/js/langSwitcher.js"></script>
 {{ end }} {{ if .Site.Params.darkModeToggle }}
-<script>
-  // On page load or when changing themes
-  const darkmode = document.querySelector('.toggle-dark-mode');
-  function toggleDarkMode() {
-    if (document.documentElement.classList.contains('dark')) {
-      document.documentElement.classList.remove('dark');
-      localStorage.setItem('darkmode', 'light');
-    } else {
-      document.documentElement.classList.add('dark');
-      localStorage.setItem('darkmode', 'dark');
-    }
-  }
-  if (darkmode) {
-    darkmode.addEventListener('click', toggleDarkMode);
-  }
-
-  const darkStorage = localStorage.getItem('darkmode');
-  const isBrowserDark =
-    window.matchMedia &&
-    window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-  if (!darkStorage && isBrowserDark) {
-    document.documentElement.classList.add('dark');
-  }
-
-  if (darkStorage && darkStorage === 'dark') {
-    toggleDarkMode();
-  }
-</script>
+<script src="/js/darkMode.js"></script>
 {{ end }}
 
-<script>
-  const mobileMenuButton = document.querySelector('.mobile-menu-button');
-  const mobileMenu = document.querySelector('.mobile-menu');
-  function toggleMenu() {
-    mobileMenu.classList.toggle('hidden');
-    mobileMenu.classList.toggle('flex');
-  }
-  if (mobileMenu && mobileMenuButton) {
-    mobileMenuButton.addEventListener('click', toggleMenu);
-  }
-</script>
+<script src="/js/mobMenu.js"></script>
+<script src='/js/formFetch.js'></script>
+
 <style>
   @media screen and (max-width: 767px) {
     footer {
