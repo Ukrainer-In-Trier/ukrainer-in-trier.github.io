@@ -59,6 +59,20 @@
     }
   });
 </script>
+<script>
+  const helpMenuButton = document.querySelector('.dropdown-switcher');
+  const helpDropdown = document.querySelector('.content-dropdown');
+  helpMenuButton.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    if (helpDropdown.classList.contains('hidden')) {
+      helpDropdown.classList.remove('hidden');
+      helpDropdown.classList.add('flex');
+    } else {
+      helpDropdown.classList.add('hidden');
+      helpDropdown.classList.remove('flex');
+    }
+  });
+</script>
 {{ end }} {{ if .Site.Params.darkModeToggle }}
 <script>
   // On page load or when changing themes
