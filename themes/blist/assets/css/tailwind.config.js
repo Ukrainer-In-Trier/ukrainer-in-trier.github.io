@@ -9,7 +9,10 @@ module.exports = {
       'layouts/**/*.html',
       'config.toml',
       'content/**/*.html',
-      'assets/js/search.js'
+      'assets/js/search.js',
+      'exampleSite/layouts/**/*.html',
+      'content/**/*.html',
+      'static/js/*.js'
     ],
   },
   darkMode: 'class',
@@ -85,5 +88,5 @@ module.exports = {
       typography: ['dark'],
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require('@tailwindcss/typography')]
 };
