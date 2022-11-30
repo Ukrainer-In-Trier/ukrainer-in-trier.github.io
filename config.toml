@@ -46,18 +46,18 @@ DefaultContentLanguageInSubdir = true
     [[languages.uk.menu.main]]
         identifier = "Help"
         name = "Help"
-        url = "/uk/help/help-me/"
+        url = "/uk/help"
         weight = 6
 
      [[languages.uk.menu.main]]
         name = "I need help"
-        url = "/uk/help/need-help/"
+        url = "/uk/help/need-help"
         weight = 1   
         parent = "Help"
         
      [[languages.uk.menu.main]]
         name = "I want to help"
-        url = "/uk/help/want-help/"
+        url = "/uk/help/want-help"
         weight = 2  
         parent = "Help"
 
@@ -192,17 +192,17 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.fr.menu.main]]
         name = "Nouvelles"
-        url = "/blog"
+        url = "/fr/blog/"
         weight = 1
 
     [[languages.fr.menu.main]]
         name = "À propos"
-        url = "/about/"
+        url = "/fr/about/"
         weight = 2
 
     [[languages.fr.menu.main]]
         name = "Tags"
-        url = "/tags"
+        url = "/fr/tags/"
         weight = 3
 
     [[languages.fr.menu.main]]
@@ -213,7 +213,7 @@ DefaultContentLanguageInSubdir = true
     [[languages.fr.menu.main]]
         identifier = "aider"
         name = "Aider"
-        url = "/fr/help"
+        url = "/fr/help/"
         weight = 6
 
     [[languages.fr.menu.main]]
