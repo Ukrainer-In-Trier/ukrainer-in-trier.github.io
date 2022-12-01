@@ -171,6 +171,7 @@
       "md:relative",
       "md:w-auto",
       "min-h-screen",
+      "min-w-max",
       "mobile-menu",
       "mobile-menu-button",
       "mr-2",
