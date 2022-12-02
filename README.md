@@ -16,5 +16,3 @@ Website will be here: http://ukrainer-in-trier.github.io/
 10. `npm install`
 11. `npm i -g postcss-cli`
 12. `npm start`
-
-! All files and folders was replaced from ukrainerInTrier to the root of project.
