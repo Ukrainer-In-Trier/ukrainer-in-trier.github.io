@@ -13,56 +13,62 @@ DefaultContentLanguageInSubdir = true
     [languages.uk.params]
         introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
         introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
-        introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
-        introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
-        introPhoto = "/1.webp"
+        introSubtitle2 = "Чому ми вважаємо, що це важливо?"
+        introSubtitle3 = "Говорити про Україну від першої особи - місія не менш важлива, ніж робота дипломатів на найвищих рівнях. Показати європейцям, що українська війна - не клаптик зі щоденної газети, не короткий сюжет в телевізорі, а люди - живі, волелюбні, творчі та сильні. Ми вкладаємо усі свої сили, щоб підтримати боротьбу за волю та спільні демократичні цінності.."
+        metaTitle = "Наша мета:"
+        metaSubtitle = "Своєю діяльністю - підтримати Україну та не дати забути про війну "
+        calendarTitle = "Календар подій"
+        partnersTitle = "НАС ПІДТРИМУЮТЬ"
+        partnersSubtitle ="Ми вдячні організаціям, за те що підтримують нас! За те що вірять в нашу справу і йдуть пліч-о-пліч з нами!"
+        helpTitle = "Приєднуйся до нас"
+        aboutButton = "Про нас"
+        partnersButton = "Партнери"
+        projectsButton = "Наші проекти"
+        wantHelpButton = "Я хочу допомогти"
+        needHelpButton = "Мені потрібна допомога"
+        introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
     [[languages.uk.menu.main]]
-        name = "News"
-        url = "/uk/blog"
+        name = "Головна"
+        url = "/uk/"
         weight = 1
 
     [[languages.uk.menu.main]]
-        name = "About"
+        name = "Про об'єднання"
         url = "/uk/about/"
         weight = 2
 
     [[languages.uk.menu.main]]
-        name = "Tags"
-        url = "/uk/tags"
+        name = "Наші проекти"
+        url = "/uk/projects/free-birds/"
         weight = 3
 
     [[languages.uk.menu.main]]
-        name = "Top Post"
-        url = "/uk/blog/emoji-support/"
+        name = "Галерея"
+        url = "/uk/gallery/"
         weight = 4
 
     [[languages.uk.menu.main]]
-        name = "Free Birds"
-        url = "/uk/free-birds/"
-        weight = 5
-
-    [[languages.uk.menu.main]]
         identifier = "Help"
-        name = "Help"
+        name = "Допомога"
         url = "/uk/help"
         weight = 6
 
      [[languages.uk.menu.main]]
-        name = "I need help"
+        name = "Мені потрібна допомога"
         url = "/uk/help/need-help"
         weight = 1   
         parent = "Help"
         
      [[languages.uk.menu.main]]
-        name = "I want to help"
+        name = "Хочу допомогти"
         url = "/uk/help/want-help"
         weight = 2  
         parent = "Help"
 
     [[languages.uk.menu.main]]
-        name = "Partners"
+        name = "Партнери"
         url = "/uk/partners"
         weight = 7
 
@@ -70,19 +76,29 @@ DefaultContentLanguageInSubdir = true
         contentDir = "content/de" # Deutsch
         weight = 2
         languageName = "Deutsch"
-        title = "Blist (mehrsprachig)"
-        description = "Modernes Blog-Theme für Ihre Hugo-Site."
+        title = "Ukrainer in Trier"
     [languages.de.params]
         introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
-        introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
-        introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
-        introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
-        introPhoto = "/1.webp"
+        introSubtitle = "- eine öffentliche Plattform zur Entwicklung und Förderung des ukrainischen Kulturraums in der Zwangsemigration."
+        introSubtitle2 = "Warum halten wir das für wichtig?"
+        introSubtitle3 = "Über die Ukraine aus der ersten Person zu sprechen, ist eine Mission, die nicht weniger wichtig ist als die Arbeit von Diplomaten auf höchster Ebene. Den Europäern zu zeigen, dass der Krieg in der Ukraine kein Fetzen aus einer Tageszeitung ist, keine Kurzgeschichte im Fernsehen, sondern Menschen – lebendig, freiheitsliebend, kreativ und stark. Wir tun unser Bestes, um den Kampf für Freiheit und gemeinsame demokratische Werte zu unterstützen."
+        metaTitle = "Unser Ziel:"
+        metaSubtitle = "Ihre Tätigkeit besteht darin, die Ukraine zu unterstützen und sie den Krieg nicht vergessen zu lassen "
+        calendarTitle = "Eventkalender"
+        partnersTitle = "WIR WERDEN UNTERSTÜTZT"
+        partnersSubtitle ="Wir danken den Organisationen, die uns unterstützen! Dafür, dass Sie an unsere Sache glauben und Seite an Seite mit uns gehen!"
+        helpTitle = "Begleiten Sie uns"
+        aboutButton = "Über uns"
+        partnersButton = "Partner"
+        projectsButton = "Unsere Projekte"
+        wantHelpButton = "Ich will helfen"
+        needHelpButton = "Ich brauche Hilfe"
+        introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
     [[languages.de.menu.main]]
-        name = "Nachrichten"
-        url = "/de/blog"
+        name = "Hauptseite"
+        url = "/de/"
         weight = 1
 
     [[languages.de.menu.main]]
@@ -91,13 +107,13 @@ DefaultContentLanguageInSubdir = true
         weight = 2
 
     [[languages.de.menu.main]]
-        name = "Tags"
-        url = "/de/tags"
+        name = "Unsere Projekte"
+       url = "/de/projects/free-birds/"
         weight = 3
 
     [[languages.de.menu.main]]
-        name = "Freie Vögel"
-       url = "/de/free-birds/"
+        name = "Galerie"
+        url = "/de/gallery/"
         weight = 4
 
     [[languages.de.menu.main]]
@@ -129,30 +145,41 @@ DefaultContentLanguageInSubdir = true
         languageName = "English"
     [languages.en.params]
         introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
-        introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
-        introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
-        introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
-        introPhoto = "/1.webp"
+        introSubtitle = "- a public platform created for the development and support of the Ukrainian cultural space in forced emigration."
+        introSubtitle2 = "Why do we think this is important?"
+        introSubtitle3 = "Speaking about Ukraine from the first person is a mission no less important than the work of diplomats at the highest levels. To show the Europeans that the Ukrainian war is not a scrap from a daily newspaper, not a short story on TV, but people - alive, freedom-loving, creative and strong. We do our best to support the fight for freedom and common democratic values."
+        metaTitle = "Our goal:"
+        metaSubtitle = "Their activity is to support Ukraine and not let them forget about the war"
+        calendarTitle = "Calendar of events"
+        partnersTitle = "WE ARE SUPPORTED"
+        partnersSubtitle ="We are grateful to the organizations that support us! For believing in our cause and walking side by side with us!"
+        helpTitle = "Join us"
+        aboutButton = "About us"
+        partnersButton = "Partners"
+        projectsButton = "Our projects"
+        wantHelpButton = "I want to help"
+        needHelpButton = "I need help"
+        introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
     [[languages.en.menu.main]]
-        name = "News"
-        url = "/en/blog"
+        name = "Main"
+        url = "/en/"
         weight = 1
 
     [[languages.en.menu.main]]
-        name = "About"
+        name = "About us"
         url = "/en/about/"
         weight = 2
 
     [[languages.en.menu.main]]
-        name = "Tags"
-        url = "/en/tags"
+        name = "Our projects"
+        url = "/en/projects/free-birds/"
         weight = 3
 
     [[languages.en.menu.main]]
-        name = "Free birds"
-        url = "/en/free-birds/"
+        name = "Gallery"
+        url = "/en/gallery/"
         weight = 4
 
     [[languages.en.menu.main]]
@@ -183,31 +210,42 @@ DefaultContentLanguageInSubdir = true
         languageName = "Français"
 
     [languages.fr.params]
-      introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
-      introSubtitle = "- громадська платформа, створена заради розвитку та підтримки українського культурного простору у вимушеній еміграції."
-      introSubtitle2 = "В час, коли війна роздерла на шматки безліч доль та сердець, берегти, примножувати та плекати рідне стало особливо важливо."
-      introSubtitle3 = "Наша мета - об'єднати активних, творчих українців Трієра та найближчих міст і селищ, обмінятися культурним досвідом з місцевими жителями."
-      introPhoto = "/1.webp"
-      logo = "/logo.svg"
+        introTitle = "Ukrainer <span class='text-red-600'>in Trier</span>"
+        introSubtitle = "- une plate-forme publique créée pour le développement et le soutien de l'espace culturel ukrainien en émigration forcée."
+        introSubtitle2 = "Pourquoi pensons-nous que c'est important?"
+        introSubtitle3 = "Parler de l'Ukraine à la première personne est une mission non moins importante que le travail des diplomates au plus haut niveau. Pour montrer aux Européens que la guerre d'Ukraine n'est pas un bout de journal, pas une nouvelle à la télévision, mais des gens - vivants, épris de liberté, créatifs et forts. Nous faisons de notre mieux pour soutenir la lutte pour la liberté et les valeurs démocratiques communes."
+        metaTitle = "Notre objectif:"
+        metaSubtitle = "Leur activité est de soutenir l'Ukraine et de ne pas les laisser oublier la guerre"
+        calendarTitle = "Calendrier des événements"
+        partnersTitle = "NOUS SOMMES ACCOMPAGNÉS"
+        partnersSubtitle ="Nous remercions les organisations qui nous soutiennent ! Pour avoir cru en notre cause et marché à nos côtés !"
+        helpTitle = "Rejoignez-nous"
+        aboutButton = "À propos de nous"
+        partnersButton = "Les partenaires"
+        projectsButton = "Nos projets"
+        wantHelpButton = "Je veux aider"
+        needHelpButton = "J'ai besoin d'aide"
+        introPhoto = "/main-img.webp"
+        logo = "/logo.svg"
 
     [[languages.fr.menu.main]]
-        name = "Nouvelles"
-        url = "/fr/blog/"
+        name = "Page d'accueil"
+        url = "/fr/"
         weight = 1
 
     [[languages.fr.menu.main]]
-        name = "À propos"
+        name = "À propos de nous"
         url = "/fr/about/"
         weight = 2
 
     [[languages.fr.menu.main]]
-        name = "Tags"
-        url = "/fr/tags/"
+        name = "Nos projets"
+        url = "/fr/projects/free-birds/"
         weight = 3
 
     [[languages.fr.menu.main]]
-        name = "Oiseaux Libres"
-        url = "/fr/free-birds/"
+        name = "Galerie"
+        url = "/fr/gallery/"
         weight = 4
 
     [[languages.fr.menu.main]]
@@ -240,9 +278,18 @@ DefaultContentLanguageInSubdir = true
   # Enable search in header
   enableSearch = true
 
+  # Links to pages
+  about='about'
+  calendar='calendar'
+  partners='partners'
+  projects = 'projects/free-birds'
+  helpMe = 'help/need-help'
+  wantHelp = 'help/want-help'
+
+
   # Custom copyright - optional
   copyright = "Copyright © 2022 - Ukrainer in Trier · All rights reserved"
-  favicon = "/favicon.svg"
+  favicon = "/favicon.png"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
@@ -250,7 +297,7 @@ DefaultContentLanguageInSubdir = true
   ascentColor = "bg-blue-100"
 
   # The page bundle that is shown on the front page
-  frontBundle = "blog"
+  frontBundle = "projects"
 
   # Used to hide the post metadata such as posted date, reading time and word count
   # Can be used at site level or page level
@@ -262,15 +309,14 @@ DefaultContentLanguageInSubdir = true
 
 [params.homepage.social]
   # Global params common for both languages
-  title = "Follow us"
+  title = "Громадське об'єднання"
+  description = "Ми об'єднуємось разом, обмінюємось думками і ідеями - заради того, щоб бути сильнішими!"
 
-  linkedin = "https://linkedin.com/in/"
-  xing = "https://www.xing.com/profile/"
+
   github = "https://github.com/"
-  medium = "https://medium.com/"
-  reddit = "https://reddit.com/"
-  dribbble = "https://dribbble.com/"
-  stackoverflow = "https://stackoverflow.com/"
+  tikTok = "https://www.tiktok.com/@ua_in_trier"
+  facebook = "https://www.facebook.com/ua.in.trier/"
+  telegram = "https://t.me/ukrainer_in_trier"
 
 [[menu.main]]
   name = "About"
