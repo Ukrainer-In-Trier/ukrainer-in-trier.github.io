@@ -8,18 +8,23 @@
       </div>
   </div>
   </div>
-    <div class="grid pb-6 lg:grid-cols-2 ">
-      <div class="m-auto pb-10 px-4">
+    <div class="grid pb-6 lg:grid-cols-2 gap-2 container mx-auto px-6">
+      <div class="m-auto pb-10 ">
         <img class="rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
       </div>
-      <div class="text-xl leading-10 mx-auto px-2 text-center lg:text-left">
-        <h3  class="text-2xl font-bold text-red-600 mb-6 mt-6 ">
+      <div class="text-xl leading-10 mx-auto px-2 lg:text-left">
+        <h3  class="text-2xl font-bold text-red-600 mb-6 mt-6 text-center ">
           {{ .Site.Params.introSubtitle2 | safeHTML}}
         </h3>
-        <p class="pr-3 mb-6">
+        <p class=" mb-6 text-justify">
           {{ .Site.Params.introSubtitle3 | safeHTML}}
         </p>
-        <a href='{{ .Site.Params.about }}' class="uppercase bg-red-600 text-white px-16 py-2 transition ease-in-out duration-300 hover:bg-purple-500">{{ .Site.Params.aboutButton}}</a>
+        <div class="text-center">
+          <a href='{{ .Site.Params.about }}'
+            class="uppercase bg-red-600 text-white px-16 py-2 transition ease-in-out duration-300 hover:bg-purple-500">{{
+            .Site.Params.aboutButton}}</a>
+        </div>
       </div>
     </div>
 </section>
+
