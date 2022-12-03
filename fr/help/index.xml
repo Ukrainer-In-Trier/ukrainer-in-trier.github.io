@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Helps on Ukrainer In Trier</title><link>https://ukrainer-in-trier.github.io/fr/help/</link><description>Recent content in Helps on Ukrainer In Trier</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ukrainer-in-trier.github.io/fr/help/index.xml" rel="self" type="application/rss+xml"/><item><title>I can help</title><link>https://ukrainer-in-trier.github.io/fr/help/want-help/</link><pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate><guid>https://ukrainer-in-trier.github.io/fr/help/want-help/</guid><description>&lt;br>
+&lt;div class="form-help">
+&lt;form id='wantHelpForm'>
+&lt;label class="block text-m font-medium text-white-700" for="fname">First name:&lt;/label>
+&lt;input class="inp block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m" type="name" id="fname" name="fname" placeholder="Name">&lt;br>
+&lt;label for="email">Email address:&lt;/label>&lt;br>
+&lt;input class="inp block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m" type="email" id="email" name="email" placeholder="example@email.com">&lt;br>
+&lt;label for="text">How can you help?&lt;/label>&lt;br>
+&lt;textarea type="text" id="text" name="text" placeholder="I can ..." rows="5" cols="28" class="inp textarea__help block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m"">&lt;/textarea>&lt;br>&lt;br>
+&lt;div class='hidden border p-2 mb-3' id='sending-mess'>&lt;/div>
+&lt;input class='text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-m px-5 py-2.5 text-center mr-2 mb-2' style= 'cursor: pointer;' type="submit" value="Submit">
+&lt;/form>
+&lt;/div></description></item><item><title>I need help</title><link>https://ukrainer-in-trier.github.io/fr/help/need-help/</link><pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate><guid>https://ukrainer-in-trier.github.io/fr/help/need-help/</guid><description>&lt;br>
+&lt;div class="form-help">
+&lt;form id='needForm'>
+&lt;label class="block text-m font-medium text-white-700" for="fname">First name:&lt;/label>
+&lt;input class="inp block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m" type="name" id="fname" name="fname" placeholder="Name">&lt;br>
+&lt;label for="email">Email address:&lt;/label>&lt;br>
+&lt;input class="inp block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m" type="email" id="email" name="email" placeholder="example@email.com">&lt;br>
+&lt;label for="text">What help do you need?&lt;/label>&lt;br>
+&lt;textarea type="text" id="text" name="text" placeholder="I need ..." rows="5" cols="28" class="inp textarea__help block w-full rounded-md border dark:border-transparent pl-7 pr-12 focus:border-indigo-500 focus:ring-indigo-500 sm:text-m"">&lt;/textarea>&lt;br>&lt;br>
+&lt;div class='hidden border p-2 mb-3' id='sending-mess'>&lt;/div>
+&lt;input class='text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-m px-5 py-2.5 text-center mr-2 mb-2' style= 'cursor: pointer;' type="submit" value="Submit">
+&lt;/form>
+&lt;/div></description></item></channel></rss>

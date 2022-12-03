@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>help on Ukrainer In Trier</title><link>https://ukrainer-in-trier.github.io/fr/tags/help/</link><description>Recent content in help on Ukrainer In Trier</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ukrainer-in-trier.github.io/fr/tags/help/index.xml" rel="self" type="application/rss+xml"/><item><title>I can help</title><link>https://ukrainer-in-trier.github.io/fr/blog/want-help/</link><pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate><guid>https://ukrainer-in-trier.github.io/fr/blog/want-help/</guid><description>&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>help on Ukrainer In Trier</title><link>https://ukrainer-in-trier.github.io/fr/tags/help/</link><description>Recent content in help on Ukrainer In Trier</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 15 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ukrainer-in-trier.github.io/fr/tags/help/index.xml" rel="self" type="application/rss+xml"/><item><title>I can help</title><link>https://ukrainer-in-trier.github.io/fr/help/want-help/</link><pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate><guid>https://ukrainer-in-trier.github.io/fr/help/want-help/</guid><description>&lt;br>
 &lt;div class="form-help">
 &lt;form id='wantHelpForm'>
 &lt;label class="block text-m font-medium text-white-700" for="fname">First name:&lt;/label>
@@ -10,7 +10,7 @@
 &lt;div class='hidden border p-2 mb-3' id='sending-mess'>&lt;/div>
 &lt;input class='text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-m px-5 py-2.5 text-center mr-2 mb-2' style= 'cursor: pointer;' type="submit" value="Submit">
 &lt;/form>
-&lt;/div></description></item><item><title>I need help</title><link>https://ukrainer-in-trier.github.io/fr/blog/need-help/</link><pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate><guid>https://ukrainer-in-trier.github.io/fr/blog/need-help/</guid><description>&lt;br>
+&lt;/div></description></item><item><title>I need help</title><link>https://ukrainer-in-trier.github.io/fr/help/need-help/</link><pubDate>Thu, 15 Jul 2021 00:00:00 +0000</pubDate><guid>https://ukrainer-in-trier.github.io/fr/help/need-help/</guid><description>&lt;br>
 &lt;div class="form-help">
 &lt;form id='needForm'>
 &lt;label class="block text-m font-medium text-white-700" for="fname">First name:&lt;/label>
@@ -22,4 +22,4 @@
 &lt;div class='hidden border p-2 mb-3' id='sending-mess'>&lt;/div>
 &lt;input class='text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-m px-5 py-2.5 text-center mr-2 mb-2' style= 'cursor: pointer;' type="submit" value="Submit">
 &lt;/form>
-&lt;/div></description></item><item><title>Help</title><link>https://ukrainer-in-trier.github.io/fr/blog/help-me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ukrainer-in-trier.github.io/fr/blog/help-me/</guid><description> I want to help I need help</description></item></channel></rss>
+&lt;/div></description></item><item><title>Help</title><link>https://ukrainer-in-trier.github.io/fr/help/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ukrainer-in-trier.github.io/fr/help/</guid><description> I want to help I need help</description></item></channel></rss>
