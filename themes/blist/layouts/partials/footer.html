@@ -45,7 +45,7 @@
 {{ if .Site.Params.enableSearch }} {{- partial "search-ui.html" . -}} {{ end }}
 {{ template "_internal/google_analytics.html" . }} {{ if ge (len
 .Site.Languages) 3 }}
-<script src="/js/langSwitcher.js"></script>
+<script src="/js/dropdownSwitcher.js"></script>
 {{ end }} {{ if .Site.Params.darkModeToggle }}
 <script src="/js/darkMode.js"></script>
 {{ end }}
