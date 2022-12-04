@@ -1,0 +1,12 @@
+<section >
+    <div class="container mx-auto px-6">
+        <div>
+            <h2 class="text-2xl lg:text-4xl lg:text-4xl mt-6 font-extrabold text-red-600">{{ .Site.Params.helpTitle}}</h2>
+        </div>
+        <div class="grid grid-cols-2 my-10 gap-2">
+            <a href="{{ .Site.Params.helpMe}}" class="lg:py-16 md:py-16 py-10 w-full bg-blue-100 text-2xl lg:text-4xl md:text-4xl text-center transition ease-in-out duration-300 hover:bg-purple-900 hover:text-white dark:text-black">{{.Site.Params.needHelpButton }}</a>
+            <a href="{{ .Site.Params.wantHelp}}" class=" lg:py-16 md:py-16 py-10 w-full bg-blue-100 text-2xl lg:text-4xl md:text-4xl text-center transition ease-in-out duration-300 hover:bg-purple-900 hover:text-white dark:text-black">{{ .Site.Params.wantHelpButton }}</a>
+        </div>
+    </div>
+</section>
+
