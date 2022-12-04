@@ -48,37 +48,37 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.uk.menu.main]]
         name = "Aрт простір / мистецтво"
-        url = "/projects/art/"
+        url = "/uk/projects/art/"
         weight = 1 
         parent = "projects"
 
     [[languages.uk.menu.main]]
         name = "Кейтеринг/ Фуд-корти"
-        url = "/projects/catering/"
+        url = "/uk/projects/catering/"
         weight = 2 
         parent = "projects"
 
     [[languages.uk.menu.main]]
         name = "Творчий колектив 'Вільні птахи'"
-        url = "/projects/free-birds/"
+        url = "/uk/projects/free-birds/"
         weight = 3 
         parent = "projects"
 
     [[languages.uk.menu.main]]
         name = "Освітні проекти"
-        url = "/projects/educate-projects/"
+        url = "/uk/projects/educate-projects/"
         weight = 4 
         parent = "projects"
 
     [[languages.uk.menu.main]]
         name = "Психологічна допомога"
-        url = "/projects/psych-help/"
+        url = "/uk/projects/psych-help/"
         weight = 5 
         parent = "projects"
 
     [[languages.uk.menu.main]]
         name = "Допомога у Трірі"
-        url = "/projects/trier-help/"
+        url = "/uk/projects/trier-help/"
         weight = 6 
         parent = "projects"
     
@@ -154,38 +154,38 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.de.menu.main]]
         name = "Kunstraum / Kunst"
-        url = "/projects/art/"
+        url = "/de/projects/art/"
         weight = 1 
         parent = "projects"
 
 
     [[languages.de.menu.main]]
         name = "Catering/ Foodcourts"
-        url = "/projects/catering/"
+        url = "/de/projects/catering/"
         weight = 2 
         parent = "projects"
 
     [[languages.de.menu.main]]
         name = "Kreativteam 'Free Birds'"
-        url = "/projects/free-birds/"
+        url = "/de/projects/free-birds/"
         weight = 3 
         parent = "projects"
 
     [[languages.de.menu.main]]
         name = "Bildungsprojekte"
-        url = "/projects/educate-projects/"
+        url = "/de/projects/educate-projects/"
         weight = 4 
         parent = "projects"
 
     [[languages.de.menu.main]]
         name = "Psychologische Hilfe"
-        url = "/projects/psych-help/"
+        url = "/de/projects/psych-help/"
         weight = 5 
         parent = "projects"
 
     [[languages.de.menu.main]]
         name = "Hilfe in Trier"
-        url = "/projects/trier-help/"
+        url = "/de/projects/trier-help/"
         weight = 6 
         parent = "projects"
     
@@ -260,19 +260,19 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Art space / art"
-        url = "/projects/art/"
+        url = "/en/projects/art/"
         weight = 1 
         parent = "projects"
 
     [[languages.en.menu.main]]
         name = "Catering/ Food courts"
-        url = "/projects/catering/"
+        url = "/en/projects/catering/"
         weight = 2 
         parent = "projects"
 
     [[languages.en.menu.main]]
         name = "Creative team 'Free birds'"
-        url = "/projects/free-birds/"
+        url = "/en/projects/free-birds/"
         weight = 3 
         parent = "projects"
 
@@ -284,13 +284,13 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Psychological help"
-        url = "/projects/psych-help/"
+        url = "/en/projects/psych-help/"
         weight = 5 
         parent = "projects"
 
     [[languages.en.menu.main]]
         name = "Help in Trier"
-        url = "/projects/trier-help/"
+        url = "/en/projects/trier-help/"
         weight = 6 
         parent = "projects"
     
@@ -365,37 +365,37 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.fr.menu.main]]
         name = "Espace artistique / art"
-        url = "/projects/art/"
+        url = "/fr/projects/art/"
         weight = 1 
         parent = "projects"
 
     [[languages.fr.menu.main]]
         name = "Restauration/ Foires alimentaires"
-        url = "/projects/catering/"
+        url = "/fr/projects/catering/"
         weight = 2 
         parent = "projects"
 
     [[languages.fr.menu.main]]
         name = "Equipe créative 'Free Birds'"
-        url = "/projects/free-birds/"
+        url = "/fr/projects/free-birds/"
         weight = 3 
         parent = "projects"
 
     [[languages.fr.menu.main]]
         name = "Projets pédagogiques"
-        url = "/projects/educate-projects/"
+        url = "/fr/projects/educate-projects/"
         weight = 4 
         parent = "projects"
 
     [[languages.fr.menu.main]]
         name = "Aide psychologique"
-        url = "/projects/psych-help/"
+        url = "/fr/projects/psych-help/"
         weight = 5 
         parent = "projects"
 
     [[languages.fr.menu.main]]
         name = "Aide à Trèves"
-        url = "/projects/trier-help/"
+        url = "/fr/projects/trier-help/"
         weight = 6 
         parent = "projects"
     
