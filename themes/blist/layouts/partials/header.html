@@ -1,4 +1,4 @@
-<header class="container flex justify-between md:justify-between gap-4 flex-wrap py-4 mx-auto relative">
+<header class="container flex justify-between md:justify-between px-6 gap-4 flex-wrap py-4 mx-auto relative">
   <a href="{{ .Site.Home.Permalink }}" class="capitalize font-extrabold text-2xl w-40">
     {{ if .Site.Params.logo }}
 
@@ -20,7 +20,7 @@
     {{ range .Site.Menus.main }}
     {{ if .HasChildren }}
     <div class="relative cursor-pointer">
-      <li class="flex items-center gap-2 {{ if $currentPage.HasMenuCurrent " main" . }}active{{ end }}">
+      <li class="flex items-center gap-2  {{ if $currentPage.HasMenuCurrent " main" . }}active{{ end }}">
         <a class="dropdown-switcher flex items-center" href={{.URL}}>
           {{ .Pre }}
           <span>{{ .Name }}</span>
@@ -37,7 +37,7 @@
           class="content-dropdown absolute min-w-max top-full place-content-stretch mt-2 left-0 flex-col gap-2  bg-gray-100 dark:bg-gray-900 dark:text-white z-10 hidden">
           {{ range .Children }}
           <a href="{{ .URL }}"
-            class="px-10 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 {{ if $currentPage.IsMenuCurrent " main" .
+            class="px-10 py-2 hover:bg-red-200 dark:hover:bg-gray-700 {{ if $currentPage.IsMenuCurrent " main" .
             }}active{{ end }}">{{ .Name }}</a>
           {{ end }}
         </div>
@@ -45,7 +45,7 @@
     </li>
 
     {{ else }}
-    <li>
+    <li class="transition ease-in-out duration-300 hover:text-red-600 ">
       <a href="{{ .URL }}">
         {{ .Pre }}
         <span>{{ .Name }}</span>
