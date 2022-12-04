@@ -20,7 +20,7 @@
     {{ range .Site.Menus.main }}
     {{ if .HasChildren }}
     <div class="relative cursor-pointer">
-      <li class="flex items-center gap-2 hover:text-red-600 {{ if $currentPage.HasMenuCurrent " main" . }}active{{ end }}">
+      <li class="flex items-center gap-2  {{ if $currentPage.HasMenuCurrent " main" . }}active{{ end }}">
         <a class="dropdown-switcher flex items-center" href={{.URL}}>
           {{ .Pre }}
           <span>{{ .Name }}</span>
@@ -37,7 +37,7 @@
           class="content-dropdown absolute min-w-max top-full place-content-stretch mt-2 left-0 flex-col gap-2  bg-gray-100 dark:bg-gray-900 dark:text-white z-10 hidden">
           {{ range .Children }}
           <a href="{{ .URL }}"
-            class="px-10 py-2 hover:bg-gray-200 dark:hover:bg-gray-700 {{ if $currentPage.IsMenuCurrent " main" .
+            class="px-10 py-2 hover:bg-red-200 dark:hover:bg-gray-700 {{ if $currentPage.IsMenuCurrent " main" .
             }}active{{ end }}">{{ .Name }}</a>
           {{ end }}
         </div>

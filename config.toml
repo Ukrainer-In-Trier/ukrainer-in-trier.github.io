@@ -41,9 +41,47 @@ DefaultContentLanguageInSubdir = true
         weight = 2
 
     [[languages.uk.menu.main]]
+        identifier = "projects"
         name = "Наші проекти"
-        url = "/uk/projects/free-birds/"
+        url = "/uk/projects/"
         weight = 3
+
+    [[languages.uk.menu.main]]
+        name = "Aрт простір / мистецтво"
+        url = "/projects/art/"
+        weight = 1 
+        parent = "projects"
+
+    [[languages.uk.menu.main]]
+        name = "Кейтеринг/ Фуд-корти"
+        url = "/projects/catering/"
+        weight = 2 
+        parent = "projects"
+
+    [[languages.uk.menu.main]]
+        name = "Творчий колектив 'Вільні птахи'"
+        url = "/projects/free-birds/"
+        weight = 3 
+        parent = "projects"
+
+    [[languages.uk.menu.main]]
+        name = "Освітні проекти"
+        url = "/projects/educate-projects/"
+        weight = 4 
+        parent = "projects"
+
+    [[languages.uk.menu.main]]
+        name = "Психологічна допомога"
+        url = "/projects/psych-help/"
+        weight = 5 
+        parent = "projects"
+
+    [[languages.uk.menu.main]]
+        name = "Допомога у Трірі"
+        url = "/projects/trier-help/"
+        weight = 6 
+        parent = "projects"
+    
 
     [[languages.uk.menu.main]]
         name = "Галерея"
@@ -109,9 +147,48 @@ DefaultContentLanguageInSubdir = true
         weight = 2
 
     [[languages.de.menu.main]]
+        identifier = "projects"
         name = "Unsere Projekte"
-       url = "/de/projects/free-birds/"
+        url = "/de/projects/free-birds/"
         weight = 3
+
+    [[languages.de.menu.main]]
+        name = "Kunstraum / Kunst"
+        url = "/projects/art/"
+        weight = 1 
+        parent = "projects"
+
+
+    [[languages.de.menu.main]]
+        name = "Catering/ Foodcourts"
+        url = "/projects/catering/"
+        weight = 2 
+        parent = "projects"
+
+    [[languages.de.menu.main]]
+        name = "Kreativteam 'Free Birds'"
+        url = "/projects/free-birds/"
+        weight = 3 
+        parent = "projects"
+
+    [[languages.de.menu.main]]
+        name = "Bildungsprojekte"
+        url = "/projects/educate-projects/"
+        weight = 4 
+        parent = "projects"
+
+    [[languages.de.menu.main]]
+        name = "Psychologische Hilfe"
+        url = "/projects/psych-help/"
+        weight = 5 
+        parent = "projects"
+
+    [[languages.de.menu.main]]
+        name = "Hilfe in Trier"
+        url = "/projects/trier-help/"
+        weight = 6 
+        parent = "projects"
+    
 
     [[languages.de.menu.main]]
         name = "Galerie"
@@ -176,9 +253,47 @@ DefaultContentLanguageInSubdir = true
         weight = 2
 
     [[languages.en.menu.main]]
+        identifier = "projects"
         name = "Our projects"
         url = "/en/projects/free-birds/"
         weight = 3
+
+    [[languages.en.menu.main]]
+        name = "Art space / art"
+        url = "/projects/art/"
+        weight = 1 
+        parent = "projects"
+
+    [[languages.en.menu.main]]
+        name = "Catering/ Food courts"
+        url = "/projects/catering/"
+        weight = 2 
+        parent = "projects"
+
+    [[languages.en.menu.main]]
+        name = "Creative team 'Free birds'"
+        url = "/projects/free-birds/"
+        weight = 3 
+        parent = "projects"
+
+    [[languages.en.menu.main]]
+        name = "Educational projects"
+        url = "/projects/educate-projects/"
+        weight = 4 
+        parent = "projects"
+
+    [[languages.en.menu.main]]
+        name = "Psychological help"
+        url = "/projects/psych-help/"
+        weight = 5 
+        parent = "projects"
+
+    [[languages.en.menu.main]]
+        name = "Help in Trier"
+        url = "/projects/trier-help/"
+        weight = 6 
+        parent = "projects"
+    
 
     [[languages.en.menu.main]]
         name = "Gallery"
@@ -243,9 +358,47 @@ DefaultContentLanguageInSubdir = true
         weight = 2
 
     [[languages.fr.menu.main]]
+        identifier = 'projects'
         name = "Nos projets"
         url = "/fr/projects/free-birds/"
         weight = 3
+
+    [[languages.fr.menu.main]]
+        name = "Espace artistique / art"
+        url = "/projects/art/"
+        weight = 1 
+        parent = "projects"
+
+    [[languages.fr.menu.main]]
+        name = "Restauration/ Foires alimentaires"
+        url = "/projects/catering/"
+        weight = 2 
+        parent = "projects"
+
+    [[languages.fr.menu.main]]
+        name = "Equipe créative 'Free Birds'"
+        url = "/projects/free-birds/"
+        weight = 3 
+        parent = "projects"
+
+    [[languages.fr.menu.main]]
+        name = "Projets pédagogiques"
+        url = "/projects/educate-projects/"
+        weight = 4 
+        parent = "projects"
+
+    [[languages.fr.menu.main]]
+        name = "Aide psychologique"
+        url = "/projects/psych-help/"
+        weight = 5 
+        parent = "projects"
+
+    [[languages.fr.menu.main]]
+        name = "Aide à Trèves"
+        url = "/projects/trier-help/"
+        weight = 6 
+        parent = "projects"
+    
 
     [[languages.fr.menu.main]]
         name = "Galerie"
@@ -293,7 +446,7 @@ DefaultContentLanguageInSubdir = true
 
   # Custom copyright - optional
   copyright = "Copyright © 2022 - Ukrainer in Trier · All rights reserved"
-  favicon = "/favicon.png"
+  favicon = "/faviconWhite.png"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors

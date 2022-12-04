@@ -110,6 +110,7 @@
       "hover:bg-gray-200",
       "hover:bg-purple-500",
       "hover:bg-purple-900",
+      "hover:bg-red-200",
       "hover:border-gray-800",
       "hover:opacity-80",
       "hover:text-gray-800",
