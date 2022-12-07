@@ -5,36 +5,40 @@ keywords: ["about-us", "contact"]
 type: about
 ---
 
-<div class='text-left mt-8 mx-auto container'>
-    <h2 class='uppercase text-4xl text-red-600 font-bold py-4'>З ЧОГО ВСЕ ПОЧИНАЛОСЬ?</h2>
+<div class='text-left mt-8 mx-auto container px-6 text-justify'>
+    <h2 class='uppercase text-4xl text-red-600 font-bold py-4 '>З ЧОГО ВСЕ ПОЧИНАЛОСЬ?</h2>
     <p>Історія нашого проєкту починається з палкого бажання, вірніше з кількох бажаннь:<br>
 - Надати допомогу та підтримку тим, хто залишився на рідній землі!<br>
 - Не залишатись осторонь від війни! <br>
 - Захищати тил! <br>
 - Зміцнювати інформаційний фронт! <br>
-І народилася ідея продемонструвати світові, що являє собою Україна, наскільки вона красива та багатогранна.<br> Закохати в нашу Батьківщину через найбільші її скарби: щирих волелюбних людей, самобутні традиції, фольклор, досвід!<br> Пробудити почуття цінності України для єдності цивілізованих держав.</p>
+І народилася ідея продемонструвати світові, що являє собою Україна, наскільки вона красива та багатогранна. Закохати в нашу Батьківщину через найбільші її скарби: щирих волелюбних людей, самобутні традиції, фольклор, досвід! Пробудити почуття цінності України для єдності цивілізованих держав.</p>
 </div>
 
-<div class='container bg-red-500 grid lg:grid-cols-2 gap-2 mx-auto my-4 '>
-    <div class='text-left 3xl:px-24 lg:px-14 px-10 flex flex-col justify-around'>
+<div class=' my-4 bg-fixed bg-cover' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")'>
+    <div style='background-color: rgba(220, 38, 38, 0.8)'>
+        <div class='grid lg:grid-cols-2 3xl:gap-10 lg:gap-4 gap-2 mx-auto container px-6'>
+        <div class='text-left  flex flex-col justify-around'>
         <h3 class='text-white text-2xl font-bold py-4'>Наша місія</h3> 
-        <p class='text-white py-4'>Донести свої думки, своє бачення і правду до людей, які оточують нас. Зберегти культурну спадщину.
+        <p class='text-white py-4 text-justify'>Донести свої думки, своє бачення і правду до людей, які оточують нас. Зберегти культурну спадщину.
 Збергти українську мову і дати можливість вивчати її усім бажаючим.  
 Творчий та спортивний розвиток серед молоді. </p>
-        <img src='/aboutImg/our-mission.jpg' class='pb-8 md:w-10/12 lg:w-10/12 3xl:w-10/12 md:m-auto'>
+        <img src='/aboutImg/photo_2022-11-06_19-02-59.jpg' class='pb-8 w-full md:m-auto'>
     </div>
-    <div class='text-left lg:px-14 px-10 flex flex-col justify-around relative' >
+    <div class='text-left flex flex-col justify-around relative' >
         <h3 class='text-white text-2xl font-bold py-4'>Що ми робимо?</h3>
-        <p class='text-white pb-10'>Ми будуємо історію. 
+        <p class='text-white pb-10 text-justify'>Ми будуємо історію. 
 Мітинги, концерти, виставки, освітні та спортивні проекти - все це направлено, щоб захистити правду і допомогти Україні в боротьбі з ворогом-агресором.</p>
-        <img src='/aboutImg/what-we-do-1.webp' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>
-        <img src='/aboutImg/what-we-do-2.webp' class='absolute 3xl:top-52  ld:top-52 md:top-52 3xl:right-28 3xl:w-36 lg:right-20 lg:w-28 md:right-24 md:block lg:block 3xl:block hidden'>
+        <img src='/aboutImg/photo_2022-11-06_19-03-58.jpg' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>
+        <img src='/aboutImg/IMG_20221015_130146.jpg' class='absolute 3xl:top-52  ld:top-52 md:top-52 3xl:right-28 3xl:w-36 lg:right-20 lg:w-28 md:right-24 md:block lg:block 3xl:block hidden'>
+    </div>
+    </div>
     </div>
 </div>
-<div class='container m-auto my-4'>
+<div class='container mx-auto my-4 px-6'>
     <h3 class='text-4xl font-bold text-red-600'>Наша команда</h3>
 </div>
-<div class='grid gap-4 3xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 m-auto'>
+    <div class='grid gap-4 3xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 m-auto '>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_f4bd2241b33a4fa89cb557af819e7d93_mv2.jpg'>
         <div class='absolute bg-white bottom-0'>
@@ -178,4 +182,5 @@ type: about
         </div>
     </div>
 </div>
+
 

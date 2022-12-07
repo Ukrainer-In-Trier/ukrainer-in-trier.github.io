@@ -3,7 +3,7 @@ author: Katheryn Fox
 title: Über mich
 ---
 
-<div class='text-left mt-8 mx-auto container'>
+<div class='text-left mt-8 mx-auto container px-6 text-justify'>
     <h2 class='uppercase text-4xl text-red-600 font-bold py-4'>WAS HAT ALLES BEGANN?</h2>
     <p>Die Geschichte unseres Projekts beginnt mit einem brennenden Wunsch, oder besser gesagt mit mehreren Wünschen:<br>
 
@@ -14,24 +14,28 @@ title: Über mich
 Und es entstand die Idee, der Welt zu zeigen, was die Ukraine ist, wie schön und facettenreich sie ist. <br>Verlieben Sie sich in unser Mutterland wegen seiner größten Schätze: <br> aufrichtige freiheitsliebende Menschen, ursprüngliche Traditionen, Folklore, Erfahrung!<br> Ein Gefühl für den Wert der Ukraine für die Einheit der zivilisierten Staaten wecken.</p>
 </div>
 
-<div class='container bg-red-500 grid lg:grid-cols-2 gap-2 mx-auto my-4 '>
-    <div class='text-left 3xl:px-24 lg:px-14 px-10 flex flex-col justify-around'>
-        <h3 class='text-white text-2xl font-bold py-4'>Unsere Aufgabe</h3> 
-        <p class='text-white py-4'>Um den Menschen um uns herum unsere Gedanken, unsere Vision und die Wahrheit zu vermitteln. Kulturerbe bewahren.
-Um die ukrainische Sprache zu retten und jedem, der möchte, die Möglichkeit zu geben, sie zu lernen.
-Kreative und sportliche Entwicklung bei jungen Menschen. </p>
-        <img src='/aboutImg/our-mission.jpg' class='pb-8 md:w-10/12 lg:w-10/12 3xl:w-10/12 md:m-auto'>
-    </div>
-    <div class='text-left lg:px-14 px-10 flex flex-col justify-around relative' >
-        <h3 class='text-white text-2xl font-bold py-4'>Was machen wir?</h3>
-        <p class='text-white pb-10'>
-Wir bauen Geschichte.
-Treffen, Konzerte, Ausstellungen, Bildungs- und Sportprojekte – all dies zielt darauf ab, die Wahrheit zu schützen und der Ukraine im Kampf gegen den aggressiven Feind zu helfen.</p>
-        <img src='/aboutImg/what-we-do-1.webp' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>
-        <img src='/aboutImg/what-we-do-2.webp' class='absolute 3xl:top-52  ld:top-52 md:top-52 3xl:right-28 3xl:w-36 lg:right-20 lg:w-28 md:right-24 md:block lg:block 3xl:block hidden'>
+<div class=' my-4 bg-fixed bg-cover' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")'>
+    <div style='background-color: rgba(220, 38, 38, 0.8)'>
+        <div class='grid lg:grid-cols-2 3xl:gap-10 lg:gap-4 gap-2 mx-auto container px-6 '>
+            <div class='text-left flex flex-col justify-around'>
+                <h3 class='text-white text-2xl font-bold py-4'>Unsere Aufgabe</h3> 
+                <p class='text-white py-4 text-justify'>Um den Menschen um uns herum unsere Gedanken, unsere Vision und die Wahrheit zu vermitteln. Kulturerbe bewahren.
+                Um die ukrainische Sprache zu retten und jedem, der möchte, die Möglichkeit zu geben, sie zu lernen.
+                Kreative und sportliche Entwicklung bei jungen Menschen. </p>
+                <img src='/aboutImg/our-mission.jpg' class='pb-8 w-full md:m-auto'>
+            </div>
+            <div class='text-left flex flex-col justify-around relative' >
+                <h3 class='text-white text-2xl font-bold py-4'>Was machen wir?</h3>
+                <p class='text-white pb-10 text-justify'>
+                Wir bauen Geschichte.
+                Treffen, Konzerte, Ausstellungen, Bildungs- und Sportprojekte – all dies zielt darauf ab, die Wahrheit zu schützen und der Ukraine im Kampf gegen den aggressiven Feind zu helfen.</p>
+                <img src='/aboutImg/what-we-do-1.webp' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>
+                <img src='/aboutImg/what-we-do-2.webp' class='absolute 3xl:top-52  ld:top-52 md:top-52 3xl:right-28 3xl:w-36 lg:right-20 lg:w-28 md:right-24 md:block lg:block 3xl:block hidden'>
+            </div>
+        </div>
     </div>
 </div>
-<div class='container m-auto my-4'>
+<div class='container mx-auto my-4 px-6'>
     <h3 class='text-4xl font-bold text-red-600'>Unser Team</h3>
 </div>
 <div class='grid gap-4 3xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 m-auto'>

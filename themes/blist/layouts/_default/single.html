@@ -17,7 +17,7 @@
 </div>
 {{ end }}
 
-<article class=" px-6 mx-auto my-8 dark:prose-dark px-4">
+<article class=" mx-auto my-8 dark:prose-dark ">
   <h1 class="text-2xl font-bold mb-2 text-center" >{{ .Title }}</h1>
   {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }} {{ end }}
   {{ .Content }}
