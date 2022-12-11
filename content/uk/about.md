@@ -5,7 +5,7 @@ keywords: ["about-us", "contact"]
 type: about
 ---
 
-<div class='text-left mt-8 mx-auto container px-6 text-justify'>
+<div class='text-left mt-8 mx-auto container px-7 text-justify'>
     <h2 class='uppercase text-4xl text-red-600 font-bold py-4 '>З ЧОГО ВСЕ ПОЧИНАЛОСЬ?</h2>
     <p>Історія нашого проєкту починається з палкого бажання, вірніше з кількох бажаннь:<br>
 - Надати допомогу та підтримку тим, хто залишився на рідній землі!<br>
@@ -17,7 +17,7 @@ type: about
 
 <div class=' my-4 bg-fixed bg-cover' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")'>
     <div style='background-color: rgba(220, 38, 38, 0.8)'>
-        <div class='grid lg:grid-cols-2 3xl:gap-10 lg:gap-4 gap-2 mx-auto container px-6'>
+        <div class='grid lg:grid-cols-2 3xl:gap-10 lg:gap-4 gap-2 mx-auto container px-7'>
         <div class='text-left  flex flex-col justify-around'>
         <h3 class='text-white text-2xl font-bold py-4'>Наша місія</h3> 
         <p class='text-white py-4 text-justify'>Донести свої думки, своє бачення і правду до людей, які оточують нас. Зберегти культурну спадщину.
