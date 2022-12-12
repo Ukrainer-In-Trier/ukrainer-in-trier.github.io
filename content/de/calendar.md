@@ -32,7 +32,7 @@ description: 'Schedule of upcoming events'
             <p>sa, 17 dez. | Trier</p>
             <h2 class='3xl:text-4xl text-2xl font-bold my-4 text-left'>Ich muss stark sein. Ich muss mutig sein. Ich habe kein Recht zu jammern.</h2>
             <p class='mb-4'>Treffen im Frauenkreis. Kunsttherapeutische Praxen und MAK-Praxen (Metaphorische und assoziative Karten).</p>
-            <a href='#' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>Anmelden</a>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSd91BiSuBVD5w9SgOIotsghWuYbdT7v5GKyxtRgBhLVXxHy7w/viewform?usp=sharing' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>Anmelden</a>
         </div>
     </div>
 </div>

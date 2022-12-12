@@ -32,7 +32,7 @@ description: 'Schedule of upcoming events'
             <p>sam, 17 Déc. | Trier</p>
             <h2 class='3xl:text-4xl text-2xl font-bold my-4 text-left'>Je dois être fort. Je dois être courageux. Je n'ai pas le droit de me plaindre.</h2>
             <p class='mb-4'>Rencontres dans le cercle des femmes. Pratiques d'art-thérapie et pratiques MAK (cartes métaphoriques et associatives).</p>
-            <a href='#' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>S'inscrire</a>
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSd91BiSuBVD5w9SgOIotsghWuYbdT7v5GKyxtRgBhLVXxHy7w/viewform?usp=sharing' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>S'inscrire</a>
         </div>
     </div>
 </div>
