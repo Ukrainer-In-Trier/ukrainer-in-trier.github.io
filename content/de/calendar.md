@@ -10,7 +10,7 @@ description: 'Schedule of upcoming events'
 </div>
 
 <div class='container mx-auto my-6 px-7'>
-    <!-- Left-img block -->
+    <!-- Left-img block 
     <div class='grid lg:grid-cols-2 grid-cols-1 border border-red-600 mb-6'>
         <div class='overflow-hidden'>
             <img src='/calendarImg/e57edb_d1e4b548b92f484f891319cd0a59236f_mv2.jpg' class='w-full object-cover  transition-transform transform hover:scale-110'>
@@ -22,6 +22,7 @@ description: 'Schedule of upcoming events'
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSd91BiSuBVD5w9SgOIotsghWuYbdT7v5GKyxtRgBhLVXxHy7w/viewform?usp=sharing' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>Anmelden</a>
         </div>
     </div>
+    -->
     <!-- right-img block -->
     <div class='grid lg:grid-cols-2 grid-cols-1 border border-red-600'>
         <div class='overflow-hidden'>

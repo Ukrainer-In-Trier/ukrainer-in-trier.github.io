@@ -1,9 +1,6 @@
 ---
 author: 'Hugo Authors'
 title: 'I need help'
-date: 2021-07-15
-tags: ['help']
-thumbnail: https://picsum.photos/id/1050/400/250
 ---
 
 <br>
