@@ -1,6 +1,7 @@
 {
   "htmlElements": {
     "tags": [
+      "!",
       "a",
       "article",
       "blockquote",
@@ -32,6 +33,7 @@
       "meta",
       "p",
       "path",
+      "pre",
       "script",
       "section",
       "span",
