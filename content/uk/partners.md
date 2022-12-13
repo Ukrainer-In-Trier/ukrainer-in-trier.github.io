@@ -1,7 +1,6 @@
 ---
 author: 'Hugo Authors'
 title: 'Our Partners'
-description: 'Guide to emoji usage in Hugo'
 tags: ['Patners']
 ---
 
