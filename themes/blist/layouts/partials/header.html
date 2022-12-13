@@ -37,7 +37,7 @@
           class="content-dropdown absolute min-w-max top-full place-content-stretch mt-2 left-0 flex-col gap-2  bg-gray-100 dark:bg-gray-900 dark:text-white z-10 hidden">
           {{ range .Children }}
           <a href="{{ .URL }}"
-            class="px-10 py-2 hover:bg-red-200 dark:hover:bg-gray-700 {{ if $currentPage.IsMenuCurrent " main" .
+            class="px-10 py-2 hover:text-red-600 dark:hover:text-red-600 {{ if $currentPage.IsMenuCurrent " main" .
             }}active{{ end }}">{{ .Name }}</a>
           {{ end }}
         </div>
@@ -74,7 +74,7 @@
       <div
         class="content-dropdown absolute top-full mt-2 left-0 flex-col gap-2 bg-gray-100 dark:bg-gray-900 dark:text-white z-10 hidden">
         {{ range .Site.Languages }} {{ if not (eq .Lang $.Site.Language.Lang) }}
-        <a class="px-3 py-2 hover:bg-gray-200 dark:hover:bg-gray-700" href="/{{ .Lang }}" lang="{{ .Lang }}">{{ default
+        <a class="px-3 py-2 hover:text-red-600 dark:hover:text-red-600" href="/{{ .Lang }}" lang="{{ .Lang }}">{{ default
           .Lang .LanguageName }}</a>
         {{ end }} {{ end }}
       </div>
