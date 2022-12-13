@@ -5,8 +5,8 @@ keywords: ["about-us", "contact"]
 type: about
 ---
 
-<div class='text-left mt-8 mx-auto container px-6 text-justify'>
-    <h2 class='uppercase text-4xl text-red-600 font-bold py-4 '>З ЧОГО ВСЕ ПОЧИНАЛОСЬ?</h2>
+<div class='text-left mx-auto container px-7 text-justify mt-8  mb-20'>
+    <h2 class='uppercase text-4xl text-red-600 font-bold py-4 mb-4'>З ЧОГО ВСЕ ПОЧИНАЛОСЬ?</h2>
     <p>Історія нашого проєкту починається з палкого бажання, вірніше з кількох бажаннь:<br>
 - Надати допомогу та підтримку тим, хто залишився на рідній землі!<br>
 - Не залишатись осторонь від війни! <br>
@@ -15,18 +15,18 @@ type: about
 І народилася ідея продемонструвати світові, що являє собою Україна, наскільки вона красива та багатогранна. Закохати в нашу Батьківщину через найбільші її скарби: щирих волелюбних людей, самобутні традиції, фольклор, досвід! Пробудити почуття цінності України для єдності цивілізованих держав.</p>
 </div>
 
-<div class=' my-4 bg-fixed bg-cover' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")'>
-    <div style='background-color: rgba(220, 38, 38, 0.8)'>
-        <div class='grid lg:grid-cols-2 3xl:gap-10 lg:gap-4 gap-2 mx-auto container px-6'>
-        <div class='text-left  flex flex-col justify-around'>
+<div class=' mb-20 bg-fixed bg-cover' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")'>
+    <div style='background-color: rgba(220, 38, 38, 0.8)' class='py-14'>
+        <div class='grid lg:grid-cols-2 3xl:gap-10 lg:gap-4 gap-2 mx-auto container px-7'>
+        <div class='text-left  flex flex-col justify-between'>
         <h3 class='text-white text-2xl font-bold py-4'>Наша місія</h3> 
         <p class='text-white py-4 text-justify'>Донести свої думки, своє бачення і правду до людей, які оточують нас. Зберегти культурну спадщину.
 Збергти українську мову і дати можливість вивчати її усім бажаючим.  
 Творчий та спортивний розвиток серед молоді. </p>
         <img src='/aboutImg/photo_2022-11-06_19-02-59.jpg' class='pb-8 w-full md:m-auto'>
     </div>
-    <div class='text-left flex flex-col justify-around relative' >
-        <h3 class='text-white text-2xl font-bold py-4'>Що ми робимо?</h3>
+    <div class='text-left flex flex-col justify-between relative' >
+        <h3 class='text-white text-2xl font-bold pt-4'>Що ми робимо?</h3>
         <p class='text-white pb-10 text-justify'>Ми будуємо історію. 
 Мітинги, концерти, виставки, освітні та спортивні проекти - все це направлено, щоб захистити правду і допомогти Україні в боротьбі з ворогом-агресором.</p>
         <img src='/aboutImg/photo_2022-11-06_19-03-58.jpg' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>

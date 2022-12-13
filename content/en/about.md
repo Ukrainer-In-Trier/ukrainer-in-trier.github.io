@@ -3,7 +3,7 @@ title: 'About us'
 tags: ['about']
 ---
 
-<div class='text-left mt-8 mx-auto container px-6 text-justify'>
+<div class='text-left mt-8 mx-auto container px-6 text-justify mb-20'>
     <h2 class='uppercase text-4xl text-red-600 font-bold py-4'>HOW DID IT ALL START?</h2>
     <p>The history of our project begins with a burning desire, or rather with several desires:<br>
 
@@ -14,23 +14,23 @@ tags: ['about']
 And the idea was born to demonstrate to the world what Ukraine is, how beautiful and multifaceted it is.<br> Fall in love with our Motherland because of its greatest treasures: sincere freedom-loving people, original traditions, folklore, experience!<br> To awaken a sense of the value of Ukraine for the unity of civilized states.</p>
 </div>
 
-<div class=' my-4 bg-fixed bg-cover' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")'>
-    <div style='background-color: rgba(220, 38, 38, 0.8)'>
+<div class=' my-4 bg-fixed bg-cover mb-20' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")' >
+    <div style='background-color: rgba(220, 38, 38, 0.8)' class='py-14'>
         <div class='grid lg:grid-cols-2 3xl:gap-10 lg:gap-4 gap-2 mx-auto container px-6 '>
-            <div class='text-left flex flex-col justify-around'>
+            <div class='text-left flex flex-col justify-between'>
                 <h3 class='text-white text-2xl font-bold py-4'>Our mission</h3> 
                 <p class='text-white py-4 text-justify'>To convey our thoughts, our vision and the truth to the people around us. Preserve cultural heritage.
                 To save the Ukrainian language and give the opportunity to learn it to everyone who wants to.
                 Creative and sports development among young people. </p>
-                <img src='/aboutImg/our-mission.jpg' class='pb-8 w-full md:m-auto'>
+                <img src='/aboutImg/photo_2022-11-06_19-02-59.jpg' class='pb-8 w-full md:m-auto'>
             </div>
-            <div class='text-left flex flex-col justify-around relative'>
-                <h3 class='text-white text-2xl font-bold py-4'>What are we doing?</h3>
+            <div class='text-left flex flex-col justify-between relative'>
+                <h3 class='text-white text-2xl font-bold pt-4'>What are we doing?</h3>
                 <p class='text-white pb-10 text-justify'>
                 We are building history.
                 Meetings, concerts, exhibitions, educational and sports projects - all this is aimed at protecting the truth and helping Ukraine in the fight against the aggressor enemy.</p>
-                <img src='/aboutImg/what-we-do-1.webp' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>
-                <img src='/aboutImg/what-we-do-2.webp' class='absolute 3xl:top-52  ld:top-52 md:top-52 3xl:right-28 3xl:w-36 lg:right-20 lg:w-28 md:right-24 md:block lg:block 3xl:block hidden'>
+                <img src='/aboutImg/photo_2022-11-06_19-03-58.jpg' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>
+                <img src='/aboutImg/IMG_20221015_130146.jpg' class='absolute 3xl:top-52  ld:top-52 md:top-52 3xl:right-28 3xl:w-36 lg:right-20 lg:w-28 md:right-24 md:block lg:block 3xl:block hidden'>
             </div>
         </div>
     </div>
