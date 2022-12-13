@@ -3,7 +3,7 @@ author: Katheryn Fox
 title: À propos de nous
 ---
 
-<div class='text-left mt-8 mx-auto container px-6 text-justify'>
+<div class='text-left mt-8 mx-auto container px-6 text-justify mb-20'>
     <h2 class='uppercase text-4xl text-red-600 font-bold py-4'>QU'EST-CE QUE TOUT A COMMENCÉ ?</h2>
     <p>L'histoire de notre projet commence par une envie brûlante, ou plutôt par plusieurs envies :<br>
 - Apportez aide et soutien à ceux qui sont restés dans leur pays natal !<br>
@@ -13,22 +13,22 @@ title: À propos de nous
 Et l'idée est née de montrer au monde ce qu'est l'Ukraine, à quel point elle est belle et multiforme.<br> Tombez amoureux de notre Patrie pour ses plus grands trésors : des gens sincères épris de liberté, des traditions originales, du folklore, de l'expérience !<br>Éveiller le sens de la valeur de l'Ukraine pour l'unité des États civilisés.</p>
 </div>
 
-<div class=' my-4 bg-fixed bg-cover' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")'>
-    <div style='background-color: rgba(220, 38, 38, 0.8)'>
+<div class=' my-4 bg-fixed bg-cover mb-20' style='background-image: url("/aboutImg/e57edb_006f24e215b6495eabfd5331e03b43e6_mv2.jpg")'>
+    <div style='background-color: rgba(220, 38, 38, 0.8)' class='py-14'>
         <div class='grid lg:grid-cols-2 3xl:gap-10 lg:gap-4 gap-2 mx-auto container px-6'>
-            <div class='text-left flex flex-col justify-around'>
+            <div class='text-left flex flex-col justify-between'>
                 <h3 class='text-white text-2xl font-bold py-4'>Notre mission</h3> 
                 <p class='text-white py-4 text-justify'>Pour transmettre nos pensées, notre vision et la vérité aux personnes qui nous entourent. Préserver le patrimoine culturel.
                 Pour sauver la langue ukrainienne et donner la possibilité de l'apprendre à tous ceux qui le souhaitent.
                 Développement créatif et sportif chez les jeunes. </p>
-                <img src='/aboutImg/our-mission.jpg' class='pb-8 w-full md:m-auto'>
+                <img src='/aboutImg/photo_2022-11-06_19-02-59.jpg' class='pb-8 w-full md:m-auto'>
             </div>
-            <div class='text-left flex flex-col justify-around relative' >
-                <h3 class='text-white text-2xl font-bold py-4'>Que faisons-nous?</h3>
+            <div class='text-left flex flex-col justify-between relative' >
+                <h3 class='text-white text-2xl font-bold pt-4'>Que faisons-nous?</h3>
                 <p class='text-white pb-10 text-justify'>Nous construisons l'histoire.
                 Des réunions, des concerts, des expositions, des projets éducatifs et sportifs - tout cela vise à protéger la vérité et à aider l'Ukraine dans la lutte contre l'ennemi agresseur.</p>
-                <img src='/aboutImg/what-we-do-1.webp' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>
-                <img src='/aboutImg/what-we-do-2.webp' class='absolute 3xl:top-52  ld:top-52 md:top-52 3xl:right-28 3xl:w-36 lg:right-20 lg:w-28 md:right-24 md:block lg:block 3xl:block hidden'>
+                <img src='/aboutImg/photo_2022-11-06_19-03-58.jpg' class='pb-8 md:w-4/6 lg:w-4/6 3xl:w-4/6 m-auto md:m-0 lg:m-0 3xl:m-0'>
+                <img src='/aboutImg/IMG_20221015_130146.jpg' class='absolute 3xl:top-52  ld:top-52 md:top-52 3xl:right-28 3xl:w-36 lg:right-20 lg:w-28 md:right-24 md:block lg:block 3xl:block hidden'>
             </div>
         </div>
     </div>
