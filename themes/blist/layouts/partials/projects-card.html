@@ -1,0 +1,19 @@
+<div >
+  <a href="{{ .Permalink }}">
+    {{ if .Params.thumbnail }}
+    <div class="relative">
+      <div class="text-clip absolute left-0 bottom-0 w-1/2 m-2 text-2xl p-2
+      font-semibold bg-gray-100 dark:bg-gray-900 dark:text-white">{{ .Params.title }}
+      <div class="overflow-hidden text-ellipsis text-base font-normal max-h-12 w-full">{{ .Content }}</div>
+      </div>    
+      <img
+        src="{{ .Params.thumbnail }}"
+        alt="{{ .Params.title }}"
+        class="rounded-lg shadow-sm w-full h-80 object-cover"
+      />
+      {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
+      {{ end }}
+    </div>
+    {{ end }}
+  </a>
+</div>
