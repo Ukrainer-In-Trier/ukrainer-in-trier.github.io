@@ -88,5 +88,12 @@ module.exports = {
       typography: ['dark'],
     },
   },
+  theme: {
+    extend: {
+      screens: {
+        '3xl': '1280px'
+      }
+    }
+  },
   plugins: [require('@tailwindcss/typography')]
 };
