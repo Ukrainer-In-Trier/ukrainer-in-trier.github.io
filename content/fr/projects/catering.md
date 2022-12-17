@@ -4,3 +4,4 @@ title: "Restauration/ Foires alimentaires/ Foires"
 thumbnail: "/projectsImg/3.jpg"
 ---
 
+Nous transmettons toute la saveur ukrainienne à travers la créativité et la cuisine nationale traditionnelle.
