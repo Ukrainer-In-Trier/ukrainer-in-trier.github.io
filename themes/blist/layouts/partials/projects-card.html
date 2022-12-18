@@ -1,16 +1,22 @@
 <div >
   <a href="{{ .Permalink }}">
     {{ if .Params.thumbnail }}
-    <div class="relative">
-      <div class="text-clip absolute left-0 bottom-0 w-1/2 m-2 text-2xl p-2
-      font-semibold bg-gray-100 dark:bg-gray-900 dark:text-white">{{ .Params.title }}
-      <div class="overflow-hidden text-ellipsis text-base font-normal max-h-12 w-full">{{ .Content }}</div>
-      </div>    
+    <div class="relative m-0">
       <img
         src="{{ .Params.thumbnail }}"
         alt="{{ .Params.title }}"
-        class="rounded-lg shadow-sm w-full h-80 object-cover"
+        class="inline-block w-1/2 object-contain"
       />
+      <div class="absolute top-0 inline-block h-full w-1/2 m-0 p-6 pt-8 
+        bg-gray-200 dark:bg-gray-900 dark:text-white"> 
+        <div class="text-xl font-semibold">
+          {{ .Params.title }}
+        </div>
+        <div class="block h-5/6 overflow-hidden text-ellipsis text-base font-normal pb-2 pt-4"
+          style="-webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
+          {{ .Content }}
+        </div>
+      </div>
       {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
       {{ end }}
     </div>
