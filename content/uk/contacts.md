@@ -10,7 +10,7 @@ tags: ['Контакти']
  <p class='text-2xl py-4 mb-5'>Ми завжди радіємо новим знайомствам!</p>
 </div>
 
-<div class=' mb-20 bg-fixed bg-cover' style='background-image: url("/contacts/backgroundImg-contacts.webp")'>
+<div class=' mb-20 bg-fixed bg-cover' style='background-image: url("/contacts/background.webp")'>
  <section class="text-white body-font">
   <div class=" px-5 py-24 mx-auto ">
     <div class="flex flex-col lg:flex-row justify-evenly">
