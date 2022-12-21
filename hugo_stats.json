@@ -34,6 +34,7 @@
       "p",
       "path",
       "polyline",
+      "pre",
       "script",
       "section",
       "select",
@@ -47,9 +48,7 @@
       "use"
     ],
     "classes": [
-      "-m-2",
-      "-mt-10",
-      "-mt-2",
+      "-mt-12",
       "3xl:block",
       "3xl:gap-10",
       "3xl:grid-cols-4",
@@ -91,6 +90,7 @@
       "content-dropdown",
       "cta",
       "cursor-pointer",
+      "dark",
       "dark:bg-gray-800",
       "dark:bg-gray-900",
       "dark:border-transparent",
@@ -105,6 +105,7 @@
       "dark:text-gray-600",
       "dark:text-gray-800",
       "dark:text-white",
+      "dark:white",
       "dropdown-switcher",
       "duration-150",
       "duration-300",
@@ -152,7 +153,6 @@
       "hidden",
       "hover:bg-black",
       "hover:bg-gradient-to-br",
-      "hover:bg-gray",
       "hover:bg-gray-200",
       "hover:bg-purple-500",
       "hover:bg-purple-700",
@@ -220,6 +220,7 @@
       "lg:w-28",
       "lg:w-3/4",
       "lg:w-4/6",
+      "light",
       "m-0",
       "m-auto",
       "ma-dots",
@@ -331,6 +332,7 @@
       "rounded-lg",
       "rounded-md",
       "s1kkRD",
+      "s2X7Ms",
       "s38Uub",
       "search-list",
       "search-results",
@@ -442,7 +444,8 @@
       "w-96",
       "w-full",
       "whitespace-nowrap",
-      "z-10"
+      "z-10",
+      "z-5"
     ],
     "ids": [
       "a",

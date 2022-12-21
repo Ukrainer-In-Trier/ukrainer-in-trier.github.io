@@ -1,6 +1,6 @@
 ---
 author: "Hugo Authors"
-title: "4-6 listopada. Vistavka"
+title: "Hoda vishivanok"
 type: gallery
 ---
 
@@ -20,10 +20,10 @@ type: gallery
 <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" class="s2X7Ms" aria-hidden="true"><path fill="currentColor" d="M14.5 4.92893219L15.2071068 5.63603897 8.84243864 11.9992929 15.2071068 18.363961 14.5 19.0710678 7.42893219 12z" fill-rule="evenodd"></path></svg>
 </a>
     <h3 class="text-4xl font-bold mb-20 ml-4 flex-1 grow">
-        4-6 листопада. Виставка
+        21.05.2022 - Хода вишиванок
     </h3>
     <div class='flex-none justify-center align-sub font-bold text-gray-900 pt-4 dark:text-white'>
-    <span class='inline-block '>Сортувати за:</span>
+    <span class='inline-block'>Сортувати за:</span>
     </div>
     <div class="mb-3 mx-4 flex-none justify-center align-sub mt-2">
         <select class="form-select appearance-none block px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding bg-no-repeat border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" aria-label="Default select example">
@@ -60,7 +60,4 @@ type: gallery
       </ul>
     </div>
 </div>   
-<div class='-mt-12 italic text-xl'>
-<span>4-6 листопада в м. Трір пройшла виставка-інсталяція "Що бачиш ти?"</span>
-</div> 
 </div>
