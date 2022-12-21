@@ -2,9 +2,12 @@
 {{- $src := .Get "src" -}}
 {{- $length := .Get "length" -}}
 {{- $caption := .Get "caption" -}}
+{{- $gallerylink := .Get "gallerylink" -}}
 
-<div class="flex flex-col text-center rounded-lg shadow-lg bg-white">
-    <a href="!#" >
+
+
+<div class="flex flex-col text-center rounded-lg shadow-lg bg-white hover:bg-gray">
+    <a href="{{$gallerylink}}" >
         <img class="w-full h-auto" src="{{$src}}" alt="{{$caption}}"/>
     </a>
     <div class="p-6 tracking-wider">

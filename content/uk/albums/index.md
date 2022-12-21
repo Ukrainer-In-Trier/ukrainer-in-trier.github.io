@@ -1,7 +1,6 @@
 ---
 author: "Hugo Authors"
-title: "Gallery"
-type: gallery
+title: "Albums"
 ---
 
 <div class='text-left mt-8 mx-auto container px-6 text-justify mb-20'>
@@ -15,8 +14,8 @@ type: gallery
 
 
 {{<albums>}}
-    {{<album-item src="/albums-cover/home_concert.webp" length="13" caption="Квартирник. Автор: Стецька Є">}}
-    {{<album-item src="/albums-cover/vechorniza.webp" length="16" caption="Вечорниця 'Калита'">}}
-    {{<album-item src="/albums-cover/vistavka.webp" length="29" caption="21.05.2022 - Хода вишиванок">}}
-    {{<album-item src="/albums-cover/hoda_vishivanok.webp" length="18" caption="4-6 листопада. Виставка">}}
+    {{<album-item src="/albums-cover/home_concert.webp" length="13" caption="Квартирник. Автор: Стецька Є" gallerylink="www.google.com">}}
+    {{<album-item src="/albums-cover/vechorniza.webp" length="16" caption="Вечорниця 'Калита'" gallerylink="www.google.com">}}
+    {{<album-item src="/albums-cover/vistavka.webp" length="29" caption="21.05.2022 - Хода вишиванок" gallerylink="www.google.com">}}
+    {{<album-item src="/albums-cover/hoda_vishivanok.webp" length="18" caption="4-6 листопада. Виставка" gallerylink="/uk/gallery1">}}
 {{</albums>}}
