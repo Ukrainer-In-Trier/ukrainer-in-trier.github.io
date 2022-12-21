@@ -1,0 +1,26 @@
+<!--layouts/shortcodes/gallery-item.html-->
+{{- $src := .Get "src" -}}
+{{- $length := .Get "length" -}}
+{{- $caption := .Get "caption" -}}
+{{- $gallerylink := .Get "gallerylink" -}}
+
+
+
+<div class="flex flex-col text-center rounded-lg shadow-lg bg-white z-5">
+    <a href="{{$gallerylink}}" >
+        <img class="w-full h-auto" src="{{$src}}" alt="{{$caption}}"/>
+    </a>
+    <div class="p-6 tracking-wider">
+        {{ with $caption }}
+        <h5 class="text-gray-900 text-xl font-medium mb-2">
+            {{$caption}}
+        </h5>
+        {{ end }}
+        <p class="text-gray-700 text-base mb-4">
+            Елементів: {{$length}}
+        </p>
+    </div>
+</div> 
+
+
+
