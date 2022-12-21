@@ -5,17 +5,19 @@
       <img
         src="{{ .Params.thumbnail }}"
         alt="{{ .Params.title }}"
-        class="inline-block w-1/2 object-contain"
+        class="inline-block w-1/2 bg-cover"
       />
-      <div class="absolute top-0 inline-block h-full w-1/2 m-0 p-6 pt-8 
+      <div class="absolute overflow-hidden text-ellipsis top-0 inline-block h-full w-1/2 m-0 p-6 pt-8 
         bg-gray-200 dark:bg-gray-900 dark:text-white"> 
-        <div class="text-xl font-semibold">
+        <div class="text-xl font-semibold overflow-hidden text-ellipsis">
           {{ .Params.title }}
         </div>
-        <div class="block h-5/6 overflow-hidden text-ellipsis text-base font-normal pb-2 pt-4"
-          style="-webkit-mask-image: linear-gradient(180deg, #000 60%, transparent);">
-          {{ .Content }}
+        <div class="block max-h-2/3 overflow-hidden text-ellipsis text-sm font-normal pb-2 pt-4">
+          {{ .Params.previewText }}
         </div>
+        <div class="object-center py-2">
+          <button class="bg-gray-50 border-2 hover:border-red-400 hover:text-purple-600 px-12 py-2"> {{ .Params.buttonText }} </button>
+        </div>    
       </div>
       {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
       {{ end }}

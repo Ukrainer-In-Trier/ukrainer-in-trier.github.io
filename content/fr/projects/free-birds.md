@@ -2,6 +2,9 @@
 author: 'Hugo Authors'
 title: 'Equipe créative "Free Birds"'
 thumbnail: '/projectsImg/2.jpg'
+buttonText: "Suite"
+previewText: "La vieille ville mystérieuse de Trèves attire, relie et unit des personnes talentueuses.
+De cette façon, des personnes auparavant inconnues pourraient devenir une équipe incroyable."
 ---
 
 La vieille ville mystérieuse de Trèves attire, relie et unit des personnes talentueuses.
