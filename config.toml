@@ -111,6 +111,11 @@ DefaultContentLanguageInSubdir = true
         url = "/uk/partners"
         weight = 7
 
+    [[languages.uk.menu.main]]
+        name = "Контакти"
+        url = "/uk/contacts"
+        weight = 8
+
     [languages.de]
         contentDir = "content/de" # Deutsch
         weight = 2
@@ -218,6 +223,11 @@ DefaultContentLanguageInSubdir = true
         url = "/de/partners/"
         weight = 7
 
+    [[languages.de.menu.main]]
+        name = "Kontakte"
+        url = "/de/contacts"
+        weight = 8
+
     [languages.en]
         contentDir = "content/en" #English
         weight = 3
@@ -321,6 +331,11 @@ DefaultContentLanguageInSubdir = true
         name = "Partners"
         url = "/en/partners/"
         weight = 7
+
+    [[languages.en.menu.main]]
+        name = "Contacts"
+        url = "/en/contacts"
+        weight = 8
 
     [languages.fr]
         contentDir = "content/fr" #French
@@ -427,6 +442,11 @@ DefaultContentLanguageInSubdir = true
         name = "Les partenaires"
         url = "/fr/partners/"
         weight = 7
+
+    [[languages.fr.menu.main]]
+        name = "Contacts"
+        url = "/fr/contacts"
+        weight = 8
 
 [params]
   # Enable the darkmode toggle in header
