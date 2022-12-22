@@ -89,6 +89,11 @@ DefaultContentLanguageInSubdir = true
         weight = 4
 
     [[languages.uk.menu.main]]
+        name = "Календар"
+        url = "/uk/calendar/"
+        weight = 5
+
+    [[languages.uk.menu.main]]
         identifier = "Help"
         name = "Допомога"
         url = "/uk/help"
@@ -201,6 +206,11 @@ DefaultContentLanguageInSubdir = true
         weight = 4
 
     [[languages.de.menu.main]]
+        name = "Kalender"
+        url = "/de/calendar/"
+        weight = 5
+
+    [[languages.de.menu.main]]
         identifier = "hilfe"
         name = "Hilfe"
         url = "/de/help"
@@ -311,6 +321,11 @@ DefaultContentLanguageInSubdir = true
         weight = 4
 
     [[languages.en.menu.main]]
+        name = "Calendar"
+        url = "/en/calendar/"
+        weight = 5
+
+    [[languages.en.menu.main]]
         name = "Help"
         url = "/en/help"
         weight = 6
@@ -419,6 +434,11 @@ DefaultContentLanguageInSubdir = true
         name = "Galerie"
         url = "/fr/gallery/"
         weight = 4
+
+    [[languages.fr.menu.main]]
+        name = "Calendrier"
+        url = "/fr/calendar/"
+        weight = 5
 
     [[languages.fr.menu.main]]
         identifier = "aider"
