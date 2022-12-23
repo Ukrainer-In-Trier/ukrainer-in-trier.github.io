@@ -2,6 +2,7 @@
 author: Hugo Authors
 title: Aрт простір / мистецтво
 thumbnail: "/projectsImg/4.jpg"
+pagetype: "Basic"
 buttonText: "Бiльше"
 previewText: "Створюємо виставки, історичні реквізити. Ми творимо і через творчість - доносим свої цінності і почуття."
 ---

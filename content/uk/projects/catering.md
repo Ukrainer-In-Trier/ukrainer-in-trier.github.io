@@ -2,6 +2,7 @@
 author: "Hugo Authors"
 title: "Кейтеринг/ Фуд-корти/ Ярмарки"
 thumbnail: "/projectsImg/3.jpg"
+pagetype: "Basic"
 buttonText: "Бiльше"
 previewText: "Передаємо весь український колорит через творчість і традиційну  національну їжу."
 ---

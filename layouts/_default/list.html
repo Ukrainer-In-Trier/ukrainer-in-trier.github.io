@@ -2,16 +2,18 @@
 
   <h1 class="container px-6 pt-6 mx-auto text-3xl font-bold uppercase text-red-600">{{ .Title }}</h1>
   
-  <div class="container inline-block p-6 w-1/2 p-6 text-base ">{{ .Content }}</div>
+  <div class="container inline-block w-1/2 p-6 text-base ">{{ .Content }}</div>
 
-  {{ $paginator := .Paginate .Pages.ByDate.Reverse 6 }}
-  <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-4 w-5/6">
-    {{ range $paginator.Pages }}
+  <!-- {{ $paginator := .Paginate .Pages.ByDate.Reverse 24 }} -->
+  <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-4 w-full lg:w-5/6">
+    {{ range where .Pages "Params.pageType" "Basic" }}
       {{- partial "projects-card.html" . -}}
     {{ end }}
   </div>
 
-  {{- partial "pagination.html" . -}}
+  {{- partial "what-else.html" . -}}
+  
+ <!-- {{- partial "pagination.html" . -}} -->
   
   {{- partial "social.html" . -}}
 {{ end }}
