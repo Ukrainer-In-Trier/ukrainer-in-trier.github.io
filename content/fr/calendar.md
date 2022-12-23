@@ -10,6 +10,19 @@ description: 'Schedule of upcoming events'
 </div>
 
 <div class='container mx-auto my-6 px-7'>
+    <div class='grid lg:grid-cols-2 grid-cols-1 border border-red-600 my-6'>
+        <div class='overflow-hidden'>
+            <img src='/calendarImg/e57edb_bfd4e3b5decc4259911f46f6c376b000_mv2.jpg' class='w-full object-cover  transition-transform transform hover:scale-110'>
+        </div>
+        <div class='text-justify my-auto p-6 '>
+            <p>Jeu, 05 Jan. | Stadtbücherei Trier</p>
+            <h2 class='3xl:text-4xl text-2xl font-bold my-4 text-left'>Livre de lecture de vacances pour enfants</h2>
+            <p class='mb-4'>Si vous êtes à Trèves, venez découvrir et écouter des histoires intéressantes, lisez des contes de vacances et plongez dans l'esprit de Noël !</p>
+            <!-- 
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSd91BiSuBVD5w9SgOIotsghWuYbdT7v5GKyxtRgBhLVXxHy7w/viewform?usp=sharing' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>S'inscrire</a>
+            -->
+        </div>
+    </div>
     <!-- right-img block -->
     <div class='grid lg:grid-cols-2 grid-cols-1 border border-red-600'>
         <div class='overflow-hidden'>
