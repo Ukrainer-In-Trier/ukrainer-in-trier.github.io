@@ -12,30 +12,17 @@ Wir versuchen, alle Richtungen zu kombinieren, damit sich alle, die gezwungen si
 das Haus zu verlassen, so wohl und geschützt wie möglich fühlen. 
 Der Krieg geht weiter - aber wir müssen weiter träumen, planen und entwickeln!
 </div>
-
   <table class="border mx-auto border-gray-300 collapse text-2xl m-2 text-red-600 w-full lg:w-5/6 self-center">
-  <tr>
-    <td class="p-12 w-1/3 bg-gray-200">
-      Organisation von Rallyes und Werbeaktionen 
-    </td>
-    <td class="p-12 w-1/3 "> 
-      Meister Klasse, Seminare
-    </td>
-    <td class="p-12 w-1/3 bg-gray-200"> 
-      Sport- und Tanzabteilungen 
-    </td>
-  </tr>
-  <tr>
-    <td class="p-12"> 
-      Organisation von Ausflügen und Spaziergänge 
-    </td>
-    <td class="p-12 bg-gray-200"> 
-      Gastronomie u Messen
-    </td>
-    <td class="p-12"> 
-      Entwicklung des Journalismus 
-    </td>
-  </tr>
+    <tr>
+      {{< odd-what-else-item text="Organisation von Rallyes und Werbeaktionen" >}}
+      {{< even-what-else-item text="Meister Klasse, Seminare" >}}
+      {{< odd-what-else-item text="Sport- und Tanzabteilungen" >}} 
+    </tr>
+    <tr>
+      {{< even-what-else-item text="Organisation von Ausflügen und Spaziergänge" >}}
+      {{< odd-what-else-item text="Gastronomie u Messen" >}}
+      {{< even-what-else-item text="Entwicklung des Journalismus" >}} 
+    </tr>
+
   </table>
 </div>
-</ul>

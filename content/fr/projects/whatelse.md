@@ -12,30 +12,16 @@ Nous essayons de combiner toutes les directions afin que tous ceux qui sont obli
 quitter la maison en se sentant aussi confortable et protégé que possible.
 La guerre continue - mais nous devons continuer à rêver, planifier et développer !
 </div>
-
   <table class="border mx-auto border-gray-300 collapse text-2xl m-2 text-red-600 w-full lg:w-5/6 self-center">
-  <tr>
-    <td class="p-12 w-1/3 bg-gray-200">
-      Organisation de rassemblements et d'actions 
-    </td>
-    <td class="p-12 w-1/3 "> 
-      Master classes, séminaires
-    </td>
-    <td class="p-12 w-1/3 bg-gray-200"> 
-      Sections sport et danse 
-    </td>
-  </tr>
-  <tr>
-    <td class="p-12"> 
-      Organisation d'excursions et de balades 
-    </td>
-    <td class="p-12 bg-gray-200"> 
-      Restauration et foires
-    </td>
-    <td class="p-12"> 
-      Développement du journalisme 
-    </td>
-  </tr>
+    <tr>
+      {{< odd-what-else-item text="Organisation de rassemblements et d'actions" >}}
+      {{< even-what-else-item text="Master classes, séminaires" >}}
+      {{< odd-what-else-item text="Sections sport et danse" >}} 
+    </tr>
+    <tr>
+      {{< even-what-else-item text="Organisation d'excursions et de balades" >}}
+      {{< odd-what-else-item text="Restauration et foires" >}}
+      {{< even-what-else-item text="Développement du journalisme" >}} 
+    </tr>
   </table>
 </div>
-</ul>
