@@ -23,6 +23,5 @@ Der Krieg geht weiter - aber wir müssen weiter träumen, planen und entwickeln!
       {{< odd-what-else-item text="Gastronomie u Messen" >}}
       {{< even-what-else-item text="Entwicklung des Journalismus" >}} 
     </tr>
-
   </table>
 </div>

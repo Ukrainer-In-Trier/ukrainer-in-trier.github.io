@@ -16,7 +16,7 @@
           {{ .Params.previewText }}
         </div>
         <div class="object-center py-2">
-          <button class="bg-gray-50 border-2 hover:border-red-400 hover:text-purple-600 px-12 py-2"> {{ .Params.buttonText }} </button>
+          <button class="bg-gray-50 border-2 hover:border-red-400 hover:text-purple-600 px-12 py-2 dark:bg-gray-700 dark:hover:text-purple-300"> {{ .Params.buttonText }} </button>
         </div>    
       </div>
       {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
