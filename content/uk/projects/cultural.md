@@ -5,13 +5,15 @@ title: "Український культурний центр"
 description: "Український культурний центр"
 ---
 
-<h1 class="p-6 pl-40 text-3xl font-bold uppercase text-red-600">Український культурний центр</h1>
+{{< cultural-title >}}
+  Український культурний центр
+{{< /cultural-title >}}
 
-<div class="inline-block p-6 pt-0 pl-40 w-1/2 text-base">
-Разом ми створюємо нову історію і зберігаємо стару!
-</div>
-<div class="bg-fixed bg-cover w-5/6 mx-auto my-2" style="background-image: url('/projectsImg/cultural-01.jpg')">
-  <div class="container px-16 mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 text-white text-base w-full lg:w-5/6">
+{{< cultural-intro >}}
+  Разом ми створюємо нову історію і зберігаємо стару!
+{{< /cultural-intro >}}
+
+{{< cultural-table >}}
   {{< 
     cultural-item 
     title="Школа" 
@@ -32,6 +34,4 @@ description: "Український культурний центр"
     title="Дозвілля" 
     text="Проводимо різні заходи. Максимально в ``сімейній``, такій рідній атмосфері. Вечорниці, пікніки, прогулянки містом - все це ми реалізовуємо завдяки нашим неймовірним українцям."
   >}}
-  </div>
-</div>
-
+{{< /cultural-table >}}

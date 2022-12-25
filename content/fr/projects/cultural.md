@@ -5,13 +5,15 @@ title: "Centre culturel ukrainien"
 description: "Centre culturel ukrainien"
 ---
 
-<h1 class="p-6 pl-40 text-3xl font-bold uppercase text-red-600">Centre culturel ukrainien</h1>
+{{< cultural-title >}}
+  Centre culturel ukrainien
+{{< /cultural-title >}}
 
-<div class="inline-block p-6 pt-0 pl-40 w-1/2 text-base">
-Ensemble, créons une nouvelle histoire et préservons l'ancienne !
-</div>
-<div class="bg-fixed bg-cover w-5/6 mx-auto my-2" style="background-image: url('/projectsImg/cultural-01.jpg')">
-   <div class="container px-16 mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 text-white text-base w-full lg:w-5/6">
+{{< cultural-intro >}}
+  Ensemble, créons une nouvelle histoire et préservons l'ancienne !
+{{< /cultural-intro >}}
+
+{{< cultural-table >}}
    {{<
      cultural-item
      title="École"
@@ -32,5 +34,4 @@ Ensemble, créons une nouvelle histoire et préservons l'ancienne !
      title="Loisirs"
      text="Nous organisons divers événements. Autant que possible dans une ``famille'', une ambiance si indigène. Soirées, pique-niques, promenades dans la ville - nous mettons tout cela en œuvre grâce à nos incroyables Ukrainiens."
    >}}
-  </div>
-</div>
+{{< /cultural-table >}}
