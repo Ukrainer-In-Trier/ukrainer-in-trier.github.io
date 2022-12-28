@@ -36,7 +36,7 @@ DefaultContentLanguageInSubdir = true
         weight = 1
 
     [[languages.uk.menu.main]]
-        name = "Про об'єднання"
+        name = "Про нас"
         url = "/uk/about/"
         weight = 2
 
@@ -152,7 +152,7 @@ DefaultContentLanguageInSubdir = true
         weight = 1
 
     [[languages.de.menu.main]]
-        name = "Über mich"
+        name = "Über uns"
         url = "/de/about"
         weight = 2
 
