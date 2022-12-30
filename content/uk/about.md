@@ -41,7 +41,7 @@ type: about
     <div class='grid gap-4 justify-items-center 3xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 m-auto'>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_f4bd2241b33a4fa89cb557af819e7d93_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Anna Zorinova</h4>
             <p class='px-2 pb-2'>Засновниця "Ukrainer in Trier"<br>
                 Telegram: @anna_dsn <br>
@@ -50,7 +50,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_daf7955f44864dbfb8b8c92e3791b9c2_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Evgeniya Stetska</h4>
             <p class='px-2 pb-2'>Фея вечірок та кейтерингу <br>
             Telegram: @feltyjane <br>
@@ -59,7 +59,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_c4c7b5d8df4d466893f738a7badc7f6c_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Anna Stetska</h4>
             <p class='px-2 pb-2'>Вокал та творчість<br>
             Tel:+380 98 321 03 23 <br>
@@ -68,7 +68,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/vlada3.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Vlada Belonenko</h4>
             <p class='px-2 pb-2'>Директор креативу<br>
             Tel: +380 68 889 72 98<br>
@@ -77,7 +77,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_4265bc9abc744880b04928e9a47f5335_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2'>Hanna Pliusnina</h4>
             <p class='px-2 pb-2'>Психолог/ коучинг <br>
             Telegram: @panicouch <br>
@@ -86,7 +86,7 @@ type: about
     </div>
     <div class='relative'>
        <img src='/aboutImg/ourTeam/katerina_kondratenko.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Katerina Kondratenko</h4>
             <p class='px-2 pb-2'>Керівник творчого <br>
              колективу "Вільні птахи"<br>
@@ -95,7 +95,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_edd0dfb565fc4493ac5177df5e1969ef_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Liza Kondratenko</h4>
             <p class='px-2 pb-2'>Музикант,  співачка, <br>
             акторка, авторка пісень <br>
@@ -104,7 +104,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_cd6f97a205ec46208bb9ac4d8b900647_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Hanna Pisareva</h4>
             <p class='px-2 pb-2'>Художниця стилю <br>
             "Петреківський розпис" <br>
@@ -113,7 +113,7 @@ type: about
     </div >
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_93acaa516638493fb42b1115ac53868d_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Olga Nagorna</h4>
             <p class='px-2 pb-2'>Чарівниця української кухні<br>
             Telegram: @Olynja_Nahorna <br>
@@ -122,7 +122,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_173d9fccc6ff4ff6ba22de462d892a90_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Valeriya Savina</h4>
             <p class='px-2 pb-2'>Хореограф, акторка <br>
             Telegram: @savinavaleriia <br>
@@ -131,7 +131,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_c728cd6c2550432eb05542ffe294e17f_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Tetjana Podzhio</h4>
             <p class='px-2 pb-2'>Засновниця освітнього<br>
              проекту "Соняшник"<br>
@@ -140,7 +140,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_ee79e418be9f43879b6d7abe84dab45a_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Iryna Savuliak</h4>
             <p class='px-2 pb-2'>Майстриня з вишивки <br>
              бісером<br>
@@ -149,7 +149,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_3dc08f9fce1e4134b1ac53b52c20ddca_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Olga Mamaeva</h4>
             <p class='px-2 pb-2'>Хореограф: хіп-хоп,<br>
             контемпорарі <br>
@@ -158,7 +158,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_a14f5e29a88a4fe1bdd818ec392cf911_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Tetjana Tarapata</h4>
             <p class='px-2 pb-2'>Професійна спортсменка,<br>
             тренер з тхеквон-до WTF <br>
@@ -167,15 +167,15 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_8b4abc690730460cb5ce09604e1c35b7_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
-            <h4 class='text-2xl p-42'>Galyna Bocharova</h4>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
+            <h4 class='text-2xl p-2'>Galyna Bocharova</h4>
             <p class='px-2 pb-2'>Журналістка <br>
             Telegram: @gigygi</p>
         </div>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_28367760492d4269b3818f13c7ea1f14_mv2.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Tetjana Pulupchykt</h4>
             <p class='px-2 pb-2'>Художниця стилю мехенді <br>
             Telegram: +380 96 938 77 02</p>
@@ -183,7 +183,7 @@ type: about
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/olena_kotova copy.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Olena Kotova</h4>
             <p class='px-2 pb-2'>Фея вареничків <br>
             Telegram: +49 17 487 30 187</p>
@@ -191,7 +191,7 @@ type: about
     </div>
      <div class='relative'>
         <img src='/aboutImg/ourTeam/tatjana copy.jpg'>
-        <div class='absolute bg-white dark:bg-gray-800 bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Tatiana</h4>
             <p class='px-2 pb-2'>Проект "Зігрій" <br> 
             Виготовлення окопних свічок <br>
