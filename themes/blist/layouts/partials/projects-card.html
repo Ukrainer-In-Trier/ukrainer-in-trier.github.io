@@ -1,0 +1,33 @@
+<div>
+  <a href="{{ .Permalink }}">
+    <div class="relative block overflow-hidden pb-16 bg-gray-200 dark:bg-gray-900">
+      
+        {{ if .Params.thumbnail }}
+          <div class="relative inline-block w-72 bg-cover">
+            <img
+              src="{{ .Params.thumbnail }}"
+              alt="{{ .Params.title }}"
+            />
+            {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
+            {{ end }}
+          </div>
+        {{ end }}
+
+        <div class="inline-block align-top overflow-hidden h-72 w-1/2 p-6 pr-0"> 
+          <div class="relative align-top block text-xl font-semibold">
+            {{ .Params.title }}
+          </div>
+          <div class="relative block align-top text-ellipsis overflow-hidden text-sm font-normal pt-4">
+            {{ .Params.previewText }}
+          </div>
+          <div class="absolute bottom-0 pb-16 mb-1">
+            <button class="px-12 py-2 bg-gray-50 border-2 hover:border-red-400 hover:text-purple-600 
+                  dark:bg-gray-700 dark:hover:text-purple-300">
+              {{ .Params.buttonText }} 
+            </button>
+          </div>    
+        </div>
+      
+    </div>
+  </a>
+</div>

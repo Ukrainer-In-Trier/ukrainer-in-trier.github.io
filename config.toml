@@ -298,7 +298,7 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "Educational projects"
-        url = "/projects/educate-projects/"
+        url = "/en/projects/educate-projects/"
         weight = 4 
         parent = "projects"
 
@@ -479,7 +479,7 @@ DefaultContentLanguageInSubdir = true
   about='about'
   calendar='calendar'
   partners='partners'
-  projects = 'projects/free-birds'
+  projects = 'projects'
   helpMe = 'help/need-help'
   wantHelp = 'help/want-help'
 

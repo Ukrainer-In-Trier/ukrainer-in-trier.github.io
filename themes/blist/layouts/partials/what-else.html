@@ -1,0 +1,9 @@
+<section >
+  <div class="container w-full">
+    {{ range where .Pages "Params.pageType" "WhatElse" }}    
+      <div>  
+        {{ .Content }} 
+      </div>
+    {{ end }}
+  </div>
+</section>
