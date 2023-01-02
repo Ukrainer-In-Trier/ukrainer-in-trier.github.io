@@ -1,0 +1,25 @@
+# Date
+- id: January
+  translation: "Січень"
+- id: February
+  translation: "Лютий"
+- id: March
+  translation: "Березень"
+- id: April
+  translation: "Квітень"
+- id: May
+  translation: "Травень"
+- id: June
+  translation: "Червень"
+- id: July
+  translation: "Липень"
+- id: August
+  translation: "Серпень"
+- id: September
+  translation: "Вересень"
+- id: October
+  translation: "Жовтень"
+- id: November
+  translation: "Листопад"
+- id: December
+  translation: "Грудень"

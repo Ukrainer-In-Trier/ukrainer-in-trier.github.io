@@ -4,6 +4,12 @@
     {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)
     }} {{- partial "blog-card.html" . -}} {{ end }}
 </div>
- {{- partial "calendar.html" . -}} {{- partial "meta-main.html" . -}} 
+ {{- partial "calendar.html" . -}} {{ $calendarBundle := .Site.Params.calendarBundle | default "events" }}
+ {{ .Content}} 
+ <div>
+    {{ range (where .Site.RegularPages.ByDate "Type" $calendarBundle)
+    }} {{- partial "calendarItem.html" . -}} {{ end }}
+ </div> 
+{{- partial "meta-main.html" . -}} 
 {{- partial "help-main.html" . -}} {{- partial "partners.html" . -}} {{- partial "social.html" . -}} {{ end }}
 

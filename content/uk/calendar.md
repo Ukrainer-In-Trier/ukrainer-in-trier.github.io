@@ -12,7 +12,7 @@ description: 'Schedule of upcoming events'
 <div class='container mx-auto my-6 px-7'>
     <div class='grid lg:grid-cols-2 grid-cols-1 border border-red-600 my-6'>
         <div class='overflow-hidden'>
-            <img src='/calendarImg/e57edb_bfd4e3b5decc4259911f46f6c376b000_mv2.jpg' class='w-full object-cover  transition-transform transform hover:scale-110'>
+            <img src='/calendarImg/e57edb_bfd4e3b5decc4259911f46f6c376b000_mv2.jpg' class='w-full object-cover  '>
         </div>
         <div class='text-justify my-auto p-6 '>
             <p>чт, 05 січ. | Stadtbücherei Trier</p>
