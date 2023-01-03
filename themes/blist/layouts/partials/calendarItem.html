@@ -1,15 +1,20 @@
 {{ $date := .Params.date | time.AsTime}}
 
 <div class="container mx-auto mb-10 px-6">
-    <div class="grid lg:grid-cols-4  md:grid-cols-3 transition-transform transform hover:scale-105">
-        <div class="md:col-span-1 col-span-2">
+    <div class="grid lg:grid-cols-2 grid-cols-1 border border-red-600 my-6 transition-transform transform hover:scale-105">
+        <div class="">
             <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="w-full">
         </div>
-        <div class="lg:col-span-3 col-span-2 pl-4">
+        <div class="text-justify my-auto p-6">
             <h2 class="font-bold lg:text-4xl text-2xl mb-6">{{ .Params.title}}</h2>
             <div class="text-xl mb-8">{{ partial "date.html" (dict "date" .Date "language" $.Page.Language
             "format" "long") }}</div> 
-            <a href="{{ .Params.link }}"  class="bg-red-600 text-white px-6 py-2 text-xl hover:bg-purple-600">Sign up</a>
+            {{ if .Params.description }} 
+            <div class="mb-4">{{ .Params.description}}</div>
+            {{ end }}
+            {{ if .Params.link }}
+            <a href="{{ .Params.link }}"  class="uppercase text-white bg-red-600 px-6 py-2 hover:bg-purple-800">Sign up</a>
+            {{ end }}
         </div>
     </div>
 </div>

@@ -1,0 +1,2 @@
+{{ $calendarBundle := .Site.Params.calendarBundle | default "events" }}
+{{ range (where .Site.RegularPages.ByDate.Reverse "Type" $calendarBundle) }} {{- partial "calendarItem.html" . -}} {{ end }}
