@@ -1,3 +1,7 @@
+{{ $date := .Params.date | time.AsTime}}
+{{ $futureEvents := $date.After now }}
+
+{{ if $futureEvents }}
 <div class="container mx-auto mb-10 px-6">
     <div
         class="grid lg:grid-cols-2 grid-cols-1 border border-red-600 my-6 transition-transform transform hover:scale-105">
@@ -18,4 +22,8 @@
         </div>
     </div>
 </div>
+{{ end }}
+
+
+
 
