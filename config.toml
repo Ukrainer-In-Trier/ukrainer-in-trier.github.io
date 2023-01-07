@@ -3,6 +3,8 @@ metaDataFormat = "yaml"
 title = "Ukrainer In Trier"
 theme = "blist"
 
+buildFuture = true
+
 DefaultContentLanguage = "uk"
 DefaultContentLanguageInSubdir = true
 [languages]
@@ -483,7 +485,6 @@ DefaultContentLanguageInSubdir = true
   helpMe = 'help/need-help'
   wantHelp = 'help/want-help'
 
-
   # Custom copyright - optional
   copyright = "Copyright © 2022 - Ukrainer in Trier · All rights reserved"
   favicon = "/faviconWhite.png"
@@ -495,6 +496,9 @@ DefaultContentLanguageInSubdir = true
 
   # The page bundle that is shown on the front page
   frontBundle = "projects"
+
+  # The calendar events on the front page 
+  calendarBundle = "events"
 
   # Used to hide the post metadata such as posted date, reading time and word count
   # Can be used at site level or page level
