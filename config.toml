@@ -29,6 +29,8 @@ DefaultContentLanguageInSubdir = true
         projectsButton = "Наші проекти"
         wantHelpButton = "Я хочу допомогти"
         needHelpButton = "Мені потрібна допомога"
+        wantHelpLink = "/uk/help/want-help"
+        donateTitle = "Задонатити"
         introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
@@ -145,6 +147,8 @@ DefaultContentLanguageInSubdir = true
         projectsButton = "Unsere Projekte"
         wantHelpButton = "Ich will helfen"
         needHelpButton = "Ich brauche Hilfe"
+        wantHelpLink = "/de/help/want-help"
+        donateTitle = "Spenden"
         introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
@@ -261,6 +265,8 @@ DefaultContentLanguageInSubdir = true
         projectsButton = "Our projects"
         wantHelpButton = "I want to help"
         needHelpButton = "I need help"
+        wantHelpLink = "/en/help/want-help"
+        donateTitle = "Donate"
         introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
@@ -376,6 +382,8 @@ DefaultContentLanguageInSubdir = true
         projectsButton = "Nos projets"
         wantHelpButton = "Je veux aider"
         needHelpButton = "J'ai besoin d'aide"
+        wantHelpLink = "/fr/help/want-help"
+        donateTitle = "Donner"
         introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
@@ -484,6 +492,7 @@ DefaultContentLanguageInSubdir = true
   projects = 'projects/free-birds'
   helpMe = 'help/need-help'
   wantHelp = 'help/want-help'
+  donations= 'donations'
 
   # Custom copyright - optional
   copyright = "Copyright © 2022 - Ukrainer in Trier · All rights reserved"

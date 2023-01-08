@@ -54,7 +54,11 @@
       </a>
     </li>
     {{ end }}
-    {{ end }} {{ if .Site.IsMultiLingual }} {{ if ge (len .Site.Languages) 3 }}
+    {{ end }}
+    <li>
+      <a href="{{ .Site.Params.donations }}" class="bg-red-600 text-white 3xl:px-4 3xl:py-11 p-2 uppercase font-bold hover:bg-red-700 ">{{ .Site.Params.donateTitle }}</a>
+    </li>
+    {{ if .Site.IsMultiLingual }} {{ if ge (len .Site.Languages) 3 }}
     <li class="relative cursor-pointer">
       <span class="dropdown-switcher flex items-center gap-1">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5"
