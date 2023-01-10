@@ -36,12 +36,12 @@ And the idea was born to demonstrate to the world what Ukraine is, how beautiful
     </div>
 </div>
 <div class='container mx-auto my-4 px-6'>
-    <h3 class='text-4xl font-bold text-red-600'>Our team</h3>
+    <h3 class='text-4xl font-bold text-red-600 text-center'>Our team</h3>
 </div>
-<div class='grid gap-4 3xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2'>
+<div class='grid justify-items-center gap-4 3xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2'>
     <div class='relative '>
         <img src='/aboutImg/ourTeam/e57edb_f4bd2241b33a4fa89cb557af819e7d93_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Anna Zorinova</h4>
             <p class='px-2 pb-2'>Foundress "Ukrainer in Trier"<br>
                 Telegram: @anna_dsn <br>
@@ -50,7 +50,7 @@ And the idea was born to demonstrate to the world what Ukraine is, how beautiful
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_daf7955f44864dbfb8b8c92e3791b9c2_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Evgeniya Stetska</h4>
             <p class='px-2 pb-2'>Fairy of parties and catering<br>
             Telegram: @feltyjane <br>
@@ -59,7 +59,7 @@ And the idea was born to demonstrate to the world what Ukraine is, how beautiful
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_c4c7b5d8df4d466893f738a7badc7f6c_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Anna Stetska</h4>
             <p class='px-2 pb-2'>
 Vocals and creativity<br>
@@ -68,8 +68,8 @@ Vocals and creativity<br>
         </div>
     </div>
     <div class='relative'>
-        <img src='/aboutImg/ourTeam/e57edb_772e302b0df8415985da4b83c6ff4c83_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+          <img src='/aboutImg/ourTeam/vlada3.jpg'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Vlada Belonenko</h4>
             <p class='px-2 pb-2'>
 Creative director<br>
@@ -79,7 +79,7 @@ Creative director<br>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_4265bc9abc744880b04928e9a47f5335_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2'>Hanna Pliusnina</h4>
             <p class='px-2 pb-2'>
 Psychologist/coaching <br>
@@ -88,8 +88,8 @@ Psychologist/coaching <br>
         </div>
     </div>
     <div class='relative'>
-        <img src='/aboutImg/ourTeam/e57edb_f4bd2241b33a4fa89cb557af819e7d93_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+       <img src='/aboutImg/ourTeam/katerina_kondratenko.jpg'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Katerina Kondratenko</h4>
             <p class='px-2 pb-2'>Head of the creative <br> 
             team "Free Birds"<br>
@@ -98,7 +98,7 @@ Psychologist/coaching <br>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_edd0dfb565fc4493ac5177df5e1969ef_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Liza Kondratenko</h4>
             <p class='px-2 pb-2'>
 Musician, singer,<br>
@@ -108,7 +108,7 @@ actress, songwriter<br>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_cd6f97a205ec46208bb9ac4d8b900647_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Hanna Pisareva</h4>
             <p class='px-2 pb-2'>
 Style artist <br>
@@ -118,7 +118,7 @@ Style artist <br>
     </div >
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_93acaa516638493fb42b1115ac53868d_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Olga Nagorna</h4>
             <p class='px-2 pb-2'>The enchantress of Ukrainian cuisine<br>
             Telegram: @Olynja_Nahorna <br>
@@ -127,7 +127,7 @@ Style artist <br>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_173d9fccc6ff4ff6ba22de462d892a90_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Valeriya Savina</h4>
             <p class='px-2 pb-2'>
 Choreographer, actress <br>
@@ -137,15 +137,15 @@ Choreographer, actress <br>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_c728cd6c2550432eb05542ffe294e17f_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
-            <h4 class='text-2xl p-2 '>Tetjana</h4>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
+            <h4 class='text-2xl p-2 '>Tetjana Podzhio</h4>
             <p class='px-2 pb-2'>Founder of the educational <br> project "Sunflower"<br>
             Telegram: +380 67 712 08 64</p>
         </div>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_ee79e418be9f43879b6d7abe84dab45a_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Iryna Savuliak</h4>
             <p class='px-2 pb-2'>
 Embroidery artist <br>
@@ -155,17 +155,17 @@ Embroidery artist <br>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_3dc08f9fce1e4134b1ac53b52c20ddca_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Olga Mamaeva</h4>
             <p class='px-2 pb-2'>
 Choreographer: hip-hop,<br>
 contemporaries <br>
-            Tel: +4915172438920</p>
+            Telegram: +38 050 754 36 05</p>
         </div>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_a14f5e29a88a4fe1bdd818ec392cf911_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
             <h4 class='text-2xl p-2 '>Tetjana Tarapata</h4>
             <p class='px-2 pb-2'>Professional athlete,<br>
             tae kwon do trainer WTF <br>
@@ -174,8 +174,8 @@ contemporaries <br>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_8b4abc690730460cb5ce09604e1c35b7_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
-            <h4 class='text-2xl p-42'>Galyna Bocharova</h4>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
+            <h4 class='text-2xl p-2'>Galyna Bocharova</h4>
             <p class='px-2 pb-2'>
 Journalist <br>
             Telegram: @gigygi</p>
@@ -183,10 +183,27 @@ Journalist <br>
     </div>
     <div class='relative'>
         <img src='/aboutImg/ourTeam/e57edb_28367760492d4269b3818f13c7ea1f14_mv2.jpg'>
-        <div class='absolute bg-white bottom-0'>
-            <h4 class='text-2xl p-2 '>Tetjana</h4>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
+            <h4 class='text-2xl p-2 '>Tetjana Pulupchykt</h4>
             <p class='px-2 pb-2'>Mehendi style artist<br>
-            Telegram: +380 96 938 77 0</p>
+            Telegram: +380 96 938 77 02</p>
+        </div>
+    </div>
+     <div class='relative'>
+         <img src='/aboutImg/ourTeam/olena_kotova copy.jpg'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
+            <h4 class='text-2xl p-2 '>Olena Kotova</h4>
+            <p class='px-2 pb-2'>Dumpling fairy <br>
+            Telegram: +49 17 487 30 187</p>
+        </div>
+    </div>
+    <div class='relative'>
+        <img src='/aboutImg/ourTeam/tatjana copy.jpg'>
+        <div class='absolute w-64 h-32 bg-white dark:bg-gray-800 bottom-0'>
+            <h4 class='text-2xl p-2 '>Tatiana</h4>
+            <p class='px-2 pb-2'>"Zigry" project <br> 
+           Making trench candles <br>
+            Telegram: @Tet2312 </p>
         </div>
     </div>
 </div>

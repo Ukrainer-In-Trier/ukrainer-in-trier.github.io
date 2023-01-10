@@ -1,11 +1,11 @@
 <div
-  class="search-ui absolute top-0 left-0 w-full h-full bg-white dark:bg-gray-800 hidden"
+  class="search-ui absolute top-0 left-0 w-full h-full bg-gray-200 bg-opacity-95 z-20 dark:bg-gray-800 dark:bg-opacity-90 hidden"
 >
-  <div class="container max-w-3xl mx-auto p-12">
+  <div class="container max-w-3xl mx-auto mt-2 p-12">
     <div class="relative">
-      <div class="my-4 text-center text-2xl font-bold">Search</div>
+      <div class="mt-12 text-center text-xl font-bold dark:text-white">Search</div>
 
-      <span class="p-2 absolute right-0 top-0 cursor-pointer close-search">
+      <span class="p-2 absolute -right-8 top-6 cursor-pointer close-search hover:text-red-600">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -26,7 +26,7 @@
 
     <input
       type="search"
-      class="py-2 px-3 w-full dark:text-black border dark:border-transparent"
+      class="py-2 mt-12 px-3 w-full dark:text-black border dark:border-transparent"
       placeholder="Enter search query"
     />
 
