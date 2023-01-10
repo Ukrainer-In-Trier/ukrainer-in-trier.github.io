@@ -9,44 +9,4 @@ description: 'Schedule of upcoming events'
         We are always glad to see you at our events!</p>
 </div>
 
-<div class='container mx-auto my-6 px-7'>
-    <div class='grid lg:grid-cols-2 grid-cols-1 border border-red-600 my-6'>
-        <div class='overflow-hidden'>
-            <img src='/calendarImg/e57edb_bfd4e3b5decc4259911f46f6c376b000_mv2.jpg' class='w-full object-cover  transition-transform transform hover:scale-110'>
-        </div>
-        <div class='text-justify my-auto p-6 '>
-            <p>Thu, 05 Jan. | Stadtbücherei Trier</p>
-            <h2 class='3xl:text-4xl text-2xl font-bold my-4 text-left'>Children's holiday reading book</h2>
-            <p class='mb-4'>If you are in Trier, come and discover and listen to interesting stories, read holiday tales and get into the Christmas spirit!</p>
-            <a href='https://docs.google.com/forms/d/e/1FAIpQLSd91BiSuBVD5w9SgOIotsghWuYbdT7v5GKyxtRgBhLVXxHy7w/viewform?usp=sharing' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>sign up</a>
-        </div>
-    </div>
-    <!-- right-img block -->
-    <div class='grid lg:grid-cols-2 grid-cols-1 border border-red-600'>
-        <div class='overflow-hidden'>
-            <img src='/calendarImg/e57edb_413c5ce542e8423fad5c44330cce596b_mv2.jpg' class='w-full object-cover transition-transform transform hover:scale-110'>
-        </div>
-        <div class='text-justify my-auto p-6 lg:order-first'>
-            <p>sut, 17 dec. | Trier</p>
-            <h2 class='3xl:text-4xl text-2xl font-bold my-4 text-left'>I have to be strong. I have to be brave. I have no right to whine.</h2>
-            <p class='mb-4'>Meetings in the women's circle. Art therapy practices and MAK practices (metaphorical and associative maps).</p>
-            <!-- 
-            <a href='https://docs.google.com/forms/d/e/1FAIpQLSd91BiSuBVD5w9SgOIotsghWuYbdT7v5GKyxtRgBhLVXxHy7w/viewform?usp=sharing' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>sign up</a>
-            -->
-        </div>
-    </div>
-        <!-- Left-img block -->
-    <div class='grid lg:grid-cols-2 grid-cols-1 border border-red-600 mb-6'>
-        <div class='overflow-hidden'>
-            <img src='/calendarImg/e57edb_d1e4b548b92f484f891319cd0a59236f_mv2.jpg' class='w-full object-cover  transition-transform transform hover:scale-110'>
-        </div>
-        <div class='text-justify my-auto p-6 '>
-            <p>sun, 11 dec. | Mergener Hof e.V.</p>
-            <h2 class='3xl:text-4xl text-2xl font-bold my-4 text-left'>Ukrainian evening party "Kalita"</h2>
-            <p class='mb-4'>Friends, we invite you to a real Ukrainian party: - with an embroidery master class; - Ukrainian folk songs and folk humor; - delicious goodies. The hostess of the evening will be the incomparable Aunt Sonia (talented actress, Ukrainian singer - Yaryna Sonyachna).</p>
-            <!-- if already gone 
-            <a href='https://docs.google.com/forms/d/e/1FAIpQLSd91BiSuBVD5w9SgOIotsghWuYbdT7v5GKyxtRgBhLVXxHy7w/viewform?usp=sharing' class='uppercase text-white bg-red-600 px-6 py-2 hover:bg-red-800'>sign up</a>
-            -->
-        </div>
-    </div>
-</div>
+{{<events >}}
