@@ -1,7 +1,7 @@
 ---
 author: 'Hugo Authors'
 ---
-<div class=' m-0 bg-fixed bg-cover'>
+<div class='m-0 bg-fixed bg-cover'>
     <div style='background-color: rgba(220, 38, 38, 0.8)' class='py-8'>
         <div class='grid lg:grid-cols-2 3xl:gap-16 lg:gap-4 gap-2 mx-auto container px-7'>
         <div class='text-left  flex flex-col justify-center'>
