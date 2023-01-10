@@ -20,9 +20,9 @@ Dank unserer gemeinsamen Arbeit, Seite an Seite, wird die Ukraine gewinnen!  </p
     </div>
     </div>
 </div>
-<div class='grid gap-6 md:grid-cols-2 grid-cols-1 md:gap-8 lg:gap-16 2xl:grid-cols-3 m-4'>
+<div class='grid gap-6 md:grid-cols-2 grid-cols-1 md:gap-8 lg:gap-12 2xl:grid-cols-3 m-4'>
 <!-- vilni -->
-<a href="https://vilni.top/" target="_blank"><div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2 grid-cols-1 md:max-xl-flex h-full border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="https://vilni.top/" target="_blank"><div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2 grid-cols-1 md:max-xl-flex h-full border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
 
 <img src="/partnersImg/partners_vilni.webp" class="min-w-full h-4/5 md:w-1/2 my-0" alt="vilni logo" >
@@ -34,7 +34,7 @@ Dank unserer gemeinsamen Arbeit, Seite an Seite, wird die Ukraine gewinnen!  </p
 </div>
 </div></a>
 <!-- hilfe-trier -->
-<a href="https://hilfe-trier.de/" target="_blank"><div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="https://hilfe-trier.de/" target="_blank"><div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
 <img src="/partnersImg/partners_hilfe.webp" class="w-10/12 mx-auto my-2 " alt="Hilfe in Trier logo">
 </div>
@@ -45,7 +45,7 @@ Die Idee des Vereins: schnelle und wirksame humanitäre Hilfe in Krisensituation
 </div>
 </div></a>
 <!-- Netzwerkhafen Ukraine -->
-<a href="https://www.netzwerkhafen.com/" target="_blank"><div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full py-12 border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="https://www.netzwerkhafen.com/" target="_blank"><div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full py-12 border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
 <img src="/partnersImg/partners_netzwerk.webp" class="w-4/5 mx-auto my-2" alt="Netzwerkhafen Ukraine logo">
 
@@ -57,7 +57,7 @@ Die Idee des Vereins: schnelle und wirksame humanitäre Hilfe in Krisensituation
 </div>
 </div></a>
 <!-- Vereins "Pro Integration" -->
-<div class='relative dark:bg-white dark:text-black grid gap-2 grid-flow-row justify-items-center lg:grid-cols-2 md:grid-cols-1  grid-cols-1 md:max-xl-flex h-full py-12 border-2 p-8 border-red-300 m-2 rounded shadow-lg  shadow-black dark:border-white dark:shadow-white'>
+<div class='relative dark:bg-white dark:text-black grid gap-2 grid-flow-row justify-items-center lg:grid-cols-2 md:grid-cols-1  grid-cols-1 md:max-xl-flex h-full py-12 border-2 p-8 border-red-400 m-2 rounded shadow-lg  shadow-black dark:border-white dark:shadow-white'>
 <div class='flex flex-col justify-around'>
 <img src="/partnersImg/partners_pro-integr.webp" class="w-full mx-auto my-8" alt="HVereins Pro Integration logo">
 </div>
@@ -68,7 +68,7 @@ Die Idee des Vereins: schnelle und wirksame humanitäre Hilfe in Krisensituation
 </div>
 </div>
 <!-- AKOM-LA-ENGEL -->
-<a href="http://www.akomlaengel.de/" target="_blank"><div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full py-12 border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="http://www.akomlaengel.de/" target="_blank"><div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full py-12 border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
  <div class='flex flex-col justify-around'>
 
 <img src="/partnersImg/partners_acom.webp" class="w-10/12 h-10/12 mx-auto my-2 " alt="AKOM-LA-ENGEL logo">
@@ -83,7 +83,7 @@ Der Ort, an dem die Musik lebt. </p>
 </div>
 </div></a>
 <!-- Druck- und Werbestudio-->
-<a href="http://tri-sign.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full py-12 border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="http://tri-sign.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full py-12 border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
 <img src="/partnersImg/partners_trisign.webp" class="w-10/12 h-10/12 mx-auto " alt="Druck- und Werbestudio logo">
 </div>
@@ -94,7 +94,7 @@ Drucksachen, Graphik, Textildruck, Stempel, Werbeartikel, Fotogeschenke und viel
 </div>
 </div></a>
 <!-- Mergener Hof e.V. -->
-<a href="http://mjctrier.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 py-20 md:max-xl-flex h-full border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="http://mjctrier.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 py-20 md:max-xl-flex h-full border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
 <img src="/partnersImg/partners_mjc.webp" class="w-10/12 h-10/12 mx-auto " alt="Mergener Hof e.V.. logo">
 
@@ -106,9 +106,9 @@ Moderne Einrichtung für Kinder, Jugendliche und Junggebliebene.</p>
 </div>
 </div></a>
 <!-- TUCHFABRIK TRIER -->
-<a href="https://tufa-trier.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full py-20 border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="https://tufa-trier.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full py-20 border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
-<img src="/partnersImg/partners_tufa.webp" class="w-10/12 h-10/12 mx-auto my-2 " alt="TUCHFABRIK TRIER logo">
+<img src="/partnersImg/partners_tufa.webp" class="w-32 mx-auto my-2 " alt="TUCHFABRIK TRIER logo">
 </div>
 <div class='flex flex-col flex-wrap justify-around m-2 md:justify-center'>
 <h4 class='text-xl text-red-500 font-semibold p-2 text-center md:my-0'>TUCHFABRIK TRIER</h4>
@@ -117,9 +117,9 @@ Moderne Einrichtung für Kinder, Jugendliche und Junggebliebene.</p>
 </div>
 </div></a>
 <!-- Pastoraler Raum Trier -->
-<a href="https://www.pr-trier.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 py-12 md:py-0 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="https://www.pr-trier.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 py-12 md:py-0 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
-<img src="/partnersImg/partners_pastoralen.webp" class="w-1/2 h-2/3 mx-auto" alt="Pastoraler Raum Trier logo">
+<img src="/partnersImg/partners_pastoralen.webp" class="w-52 h-52 mx-auto" alt="Pastoraler Raum Trier logo">
 	
 </div>
 <div class='flex flex-col flex-wrap justify-between my-0 md:my-2 md:justify-center'>
@@ -129,9 +129,9 @@ Ein großes Netzwerk aus Gruppen, Gemeinden und Initiativen, die die ganze Vielf
 </div>
 </div></a>
 <!-- Deutscher Bibliotheksverband e.V. -->
-<a href="https://www.bibliotheksverband.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="https://www.bibliotheksverband.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
-<img src="/partnersImg/partners_dbv.webp" class="w-3/4 h-3/4 mx-auto my-2 " alt="Deutscher Bibliotheksverband e.V. logo">
+<img src="/partnersImg/partners_dbv.webp" class="w-52 mx-auto my-2 " alt="Deutscher Bibliotheksverband e.V. logo">
 
 </div>
 <div class='flex flex-col flex-wrap justify-between mx-0 md:justify-center'>
@@ -142,9 +142,9 @@ Ein großes Netzwerk aus Gruppen, Gemeinden und Initiativen, die die ganze Vielf
 </div>
 </div></a>
 <!-- Hoffnung e.V. -->
-<a href="https://www.facebook.com/mwanzek1" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="https://www.facebook.com/mwanzek1" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
-<img src="/partnersImg/partners_hoffnung.webp" class="w-10/12 h-3/4 mx-auto my-2 " alt="Hoffnung e.V. logo">
+<img src="/partnersImg/partners_hoffnung.webp" class="w-52 mx-auto my-2 " alt="Hoffnung e.V. logo">
 </div>
 <div class='flex flex-col flex-wrap justify-around m-2 md:justify-center'>
 <h4 class='text-xl text-red-500 font-semibold p-2 text-center md:my-0'>Hoffnung e.V. </h4>
@@ -154,10 +154,10 @@ Ein großes Netzwerk aus Gruppen, Gemeinden und Initiativen, die die ganze Vielf
 </div>
 </div></a>
 <!-- Громадська організація Ми є поруч -->
-<a href="https://www.facebook.com/profile.php?id=100067834763509" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="https://www.facebook.com/profile.php?id=100067834763509" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
 
-<img src="/partnersImg/partners_mi-e.webp" class="w-10/12 mx-auto my-2 " alt="Громадська організація Ми є поруч">
+<img src="/partnersImg/partners_mi-e.webp" class="w-52 mx-auto my-2 " alt="Громадська організація Ми є поруч">
 
 </div>
 <div class='flex flex-col flex-wrap justify-between mx-0 md:justify-center'>
@@ -168,7 +168,7 @@ Ein großes Netzwerk aus Gruppen, Gemeinden und Initiativen, die die ganze Vielf
 </div>
 </div></a>
 <!-- Місце для нових друзів -->
-<a href="https://hilfe-trier.de/" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-300 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
+<a href="#" target="_blank"> <div class='relative dark:bg-white dark:text-black grid gap-0 grid-flow-row justify-items-center lg:grid-cols-2  grid-cols-1 md:max-xl-flex h-full border-2 border-red-400 hover:border-red-600 hover:shadow-2xl hover:text-blue-900 dark:hover:border-blue-600 p-8 m-2 rounded shadow-lg shadow-black dark:border-white'>
 <div class='flex flex-col justify-around'>
 <img src="/partnersImg/partners_new-friends.webp" class="w-10/12 mx-auto my-2 " alt="Місце для нових друзів logo">
 </div>
