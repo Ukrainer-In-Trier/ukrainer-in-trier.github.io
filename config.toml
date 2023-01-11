@@ -29,6 +29,9 @@ DefaultContentLanguageInSubdir = true
         projectsButton = "Наші проекти"
         wantHelpButton = "Я хочу допомогти"
         needHelpButton = "Мені потрібна допомога"
+        wantHelpLink = "/uk/help/want-help"
+        donations= '/uk/donations'
+        donateTitle = "Задонатити"
         introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
@@ -145,6 +148,9 @@ DefaultContentLanguageInSubdir = true
         projectsButton = "Unsere Projekte"
         wantHelpButton = "Ich will helfen"
         needHelpButton = "Ich brauche Hilfe"
+        wantHelpLink = "/de/help/want-help"
+        donations= '/de/donations'
+        donateTitle = "Spenden"
         introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
@@ -261,6 +267,9 @@ DefaultContentLanguageInSubdir = true
         projectsButton = "Our projects"
         wantHelpButton = "I want to help"
         needHelpButton = "I need help"
+        wantHelpLink = "/en/help/want-help"
+        donations= '/en/donations'
+        donateTitle = "Donate"
         introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
@@ -376,6 +385,9 @@ DefaultContentLanguageInSubdir = true
         projectsButton = "Nos projets"
         wantHelpButton = "Je veux aider"
         needHelpButton = "J'ai besoin d'aide"
+        wantHelpLink = "/fr/help/want-help"
+        donations= '/fr/donations'
+        donateTitle = "Donner"
         introPhoto = "/main-img.webp"
         logo = "/logo.svg"
 
