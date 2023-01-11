@@ -56,11 +56,10 @@ description: "How to help us"
         <span class='font-bold'>Давайте знайомитись і творити спільну історію РАЗОМ!</span> </p>
 </div>
 
-<div class='grid lg:grid-cols-3 grid-cols-2'>
-    <div>
-        <img src='/projectsImg/10.jpg' class='w-full'>
-    </div>
-    <div class='bg-red-600 text-white lg:col-span-2 col-span-1 flex justify-center '>
-        {{< helpLink classes="uppercase font-bold md:text-2xl text-xl px-4 py-2 md:px-7 md:py-4 border self-center hover:bg-red-800" >}}
+<div class=' my-4 bg-fixed bg-cover mb-20' style='background-image: url("/projectsImg/10.jpg")'>
+    <div style='background-color: rgba(255, 255, 255, 0.7)'>
+        <div class='py-40 text-center'>
+            {{< helpLink classes="uppercase font-bold md:text-2xl text-xl px-4 py-2 md:px-7 md:py-4 border border-red-700 text-red-700 self-center hover:bg-red-800 hover:text-white" >}}
+        </div>
     </div>
 </div>
