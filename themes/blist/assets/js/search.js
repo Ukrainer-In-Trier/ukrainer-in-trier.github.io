@@ -22,9 +22,17 @@ function closeSearch() {
   document.activeElement.blur(); // remove focus from search box
   searchVisible = false; // search not visible
   searchResultsHeading.classList.add('hidden');
+  noResults.classList.add('hidden'); //no result message hidden
+  if(list) {
+    list.innerHTML = '';
+  }// result text removed
+  if(maininput.value.length >= 0) {
+    maininput.value = '';
+  } //input field cleaned
 }
 
 function openSearch() {
+  
   // Load json search index if first time invoking search
   // Means we don't load json unless searches are going to happen; keep user payload small unless needed
   if (firstRun) {
